@@ -1,34 +1,42 @@
-# Portfolio Starter Kit
+# Welcome to My GitHub Pages! 🚀
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen)](https://boraxpr.github.io/)
 
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
+This project is powered by Nextra and NextJS, enabling me to create an awesome static site. \
+It's compatible with both Vercel and GitHub Action (Pages).
 
-## Configuration
+## Installation
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.js`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+To get started with the project, follow these steps:
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/nextjs-portfolio-starter&project-name=portfolio&repository-name=portfolio)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+1. Install the project dependencies by running the following command:
 
 ```bash
-npx create-next-app --example blog my-blog
-# or
-yarn create next-app --example blog my-blog
+yarn install
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Running the Project
+
+To run the project locally and explore it on your machine, use the following command:
+
+```bash
+yarn next
+```
+
+This will start the development server and provide you with a local preview of your site. Feel free to make improvements, test new features, and iterate on your ideas.
+
+## Deployment
+
+To deploy your site to your desired platform, such as Vercel or GitHub Pages, you can follow their respective deployment guides and utilize their deployment actions or commands.
+
+Make sure to configure your deployment settings and provide any necessary environment variables or configurations for a smooth deployment process.
+
+## Contributing
+
+If you'd like to contribute to this project, I welcome your contributions! Whether it's bug fixes, new features, or suggestions, please feel free to open issues or submit pull requests. Let's collaborate and make this project even better together!
+
+## Get in Touch
+
+If you have any questions, feedback, or just want to say hello, don't hesitate to reach out. You can contact me through [tata-naipawat@hotmail.com](tata-naipawat@hotmail.com).
+
+Let's create something amazing with Nextra and NextJS! Happy coding! 😄
