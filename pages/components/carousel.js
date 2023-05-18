@@ -3,7 +3,7 @@ import { React } from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
 
-export function testComponent() {
+export default function testComponent() {
   return (
     <Carousel>
       <div>
@@ -22,13 +22,4 @@ export function testComponent() {
   )
 }
 
-export function Counter({ children }) {
-  const [count, setCount] = useState(0)
-  return (
-    <button onClick={() => setCount(count + 1)}>
-      {children}
-      {count}
-    </button>
-  )
-}
 
