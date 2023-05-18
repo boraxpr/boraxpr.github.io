@@ -9,8 +9,8 @@
   "dependencies": {
     "gray-matter": "^4.0.2",
     "next": "^12.3.4",
-    "nextra": "^2.3.0",
-    "nextra-theme-blog": "^2.0.0-beta.5",
+    "nextra": "^2.5.2",
+    "nextra-theme-blog": "^2.5.2",
     "nextra-theme-docs": "^2.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -7,7 +7,7 @@ async function generate() {
   const feed = new RSS({
     title: 'Naipawat Poolsawat',
     site_url: 'https://boraxpr-github-io.vercel.app/',
-    feed_url: 'https://boraxpr-github-io.vercel.app/feed.xml'
+    feed_url: 'https://boraxpr-github-io.vercel.app/feed.xml',
   })
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))
