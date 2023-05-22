@@ -1,6 +1,7 @@
 # Welcome to My GitHub Pages! 🚀
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen)](https://boraxpr.github.io/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen)](https://boraxpr.github.io/) \
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5da52f6f-9afc-44a4-bba2-db83dac08cf2/deploy-status)](https://app.netlify.com/sites/singular-sprite-843b9f/deploys) 
 
 This project is powered by Nextra and NextJS, enabling me to create an awesome static site. \
 It's compatible with both Vercel and GitHub Action (Pages).
