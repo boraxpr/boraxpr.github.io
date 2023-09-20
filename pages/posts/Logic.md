@@ -1,7 +1,7 @@
 ---
 type: post
 title: Logic
-date: 2023-09-23
+date: 2023-09-20
 ---
 Don't do these 💀
 ```
