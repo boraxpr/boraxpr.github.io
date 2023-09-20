@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-grid-gallery": "^1.0.0",
     "react-responsive-carousel": "^3.2.23",
+    "react-social-icons": "^5.15.0",
     "rss": "^1.2.2",
     "sharp": "^0.32.1"
   },
