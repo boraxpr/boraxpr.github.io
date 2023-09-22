@@ -1,4 +1,5 @@
-@font-face {
+
+@font-face { 
   font-family: 'Inter var';
   font-style: normal;
   font-weight: 100 900;
@@ -6,6 +7,7 @@
   src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
 }
 @font-face {
+
   font-family: 'Inter var';
   font-style: italic;
   font-weight: 100 900;
@@ -23,7 +25,16 @@ body {
     'cv03' 1, 'cv04' 1;
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
+}
+footer{
+  position: fixed;
+  padding: 10px 10px 10px 10px;
+  bottom: 0;
+}
+article{
+  position: relative;
+  min-height: 100vh;
 }
 b,
 strong,
