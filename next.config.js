@@ -9,4 +9,4 @@ module.exports = withNextra(
     },
   }
 )
-module.exports = withNextra()
+
