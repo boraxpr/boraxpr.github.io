@@ -32,10 +32,7 @@ footer{
   padding: 10px 10px 10px 10px;
   bottom: 0;
 }
-article{
-  position: relative;
-  min-height: 100vh;
-}
+
 b,
 strong,
 h3,
