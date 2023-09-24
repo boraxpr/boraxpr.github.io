@@ -12,7 +12,6 @@
     "next": "^12.3.4",
     "nextra": "^2.13.0",
     "nextra-theme-blog": "^2.13.0",
-    "nextra-theme-docs": "^2.12.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-grid-gallery": "^1.0.0",
