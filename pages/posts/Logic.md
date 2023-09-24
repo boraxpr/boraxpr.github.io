@@ -7,24 +7,29 @@ date: 2023-09-20
 When you start learning to code, after your initial "Hello, World!" program, one of the first constructs you encounter is the if-else statement. It's a fundamental part of programming, but it can quickly lead to complex and convoluted code if not used wisely. In this article, we'll explore how to simplify your code by avoiding nested if statements and employing guard clauses and logical expressions.
 
 ## The Nested If Challenge 😫
-```year = 2024
-if year % 4 == 0:
-    if year % 100 == 0:
-        if year % 400 == 0:
-            is_leap_year = True
+```
+is_sunny = True
+temperature = 25
+is_weekend = False
+is_holiday = True
+has_garden = False
+
+if is_sunny:
+    if temperature > 20:
+        if not has_garden:
+            print("It's a great day for a picnic!")
         else:
-            is_leap_year = False
+            print("We can't have a picnic today, no garden available.")
+    elif is_weekend and is_holiday:
+        if not has_garden:
+            print("It's a great day for a picnic!")
+        else:
+            print("We can't have a picnic today, no garden available.")
     else:
-        is_leap_year = True
+        print("We can't have a picnic today, temperature is too low.")
 else:
-    is_leap_year = False
+    print("We can't have a picnic today, it's not sunny.")
 
-if is_leap_year:
-    result = f"{year} is a leap year."
-else:
-    result = f"{year} is not a leap year."
-
-print(result)
 ```
 Admit it, this code is not the easiest to read or maintain.
 
@@ -104,16 +109,16 @@ if (C){}
 ## Simplifying Conditional Logic in Action 🚀
 Now, let's apply these concepts to simplify the leap year checking code:
 ```
-year = 2024
+is_sunny = True
+temperature = 25
+is_weekend = False
+is_holiday = True
+has_garden = False
 
-is_leap_year = (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0))
-
-if is_leap_year:
-    result = f"{year} is a leap year."
+if is_sunny and (temperature > 20 or (is_weekend and is_holiday)) and not has_garden:
+    print("It's a great day for a picnic!")
 else:
-    result = f"{year} is not a leap year."
-
-print(result)
+    print("We can't have a picnic today.")
 ```
 
 By implementing guard clauses and simplifying conditional logic, you can make your code more readable, maintainable, and less error-prone. Whether you're a beginner or an experienced developer, these practices will help you produce cleaner and more efficient code.
