@@ -107,7 +107,7 @@ if (C){}
 //...
 ```
 ## Simplifying Conditional Logic in Action 🚀
-Now, let's apply these concepts to simplify the leap year checking code:
+Now, let's apply these concepts to simplify the code:
 ```
 is_sunny = True
 temperature = 25
