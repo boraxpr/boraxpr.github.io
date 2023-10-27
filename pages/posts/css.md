@@ -4,7 +4,7 @@ title: 'Demystifying: CSS The Transition from Vanilla CSS to TailwindCSS'
 date: 2023-10-27
 ---
 
-When I first got into programming during college, I was all about C, Python, and Java. Web development, with CSS and JavaScript, seemed like a whole different world. Fast forward to my new gig at a company, and I've spent around six months wading through the CSS waters. I want to share what I've learned and why I'm warming up to Cascading Style Sheets.
+When I first got into programming during college, I was all about C, Python, and Java. Web development, with CSS and JavaScript, seemed like a whole different world. Fast forward to my new gig at a company, and I've spent months wading through the CSS waters. I want to share what I've learned and why I'm warming up to Cascading Style Sheets.
 
 ## The HTML Riddle
 
