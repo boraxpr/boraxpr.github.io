@@ -9,7 +9,7 @@ When I first got into programming during college, I was all about C, Python, and
 ## The HTML Riddle
 
 Fire up your favorite web browser and open a developer console. For me, I'm on Firefox so it's ctrl+shift+I.
-![Alt text](image-1.png)
+![Alt text](./image-1.png)
 Now, go to any website and click on the inspector tool. You'll see the HTML code that makes up the page. It's a tree-like structure of tags and content. 
 Like this:  
 
