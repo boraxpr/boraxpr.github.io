@@ -66,7 +66,7 @@ One of CSS's magic tricks is the ability to target nested elements. Let's say yo
 This is called a descendant selector. It's a powerful tool that allows you to target specific elements in your HTML code.
 
 ## Borrowing from the Basics
-CSS is not just about custom classes. You can also inherit and extend styles from predefined HTML elements. For instance, <a> tags come with default values:
+CSS is not just about custom classes. You can also inherit and extend styles from predefined HTML elements. For instance, '<a>' tags come with default values:
 
 ```css
 a {
