@@ -7,39 +7,9 @@ date: 2023-11-02
 import { Card, CardContent, Typography, Grid, List, ListItem } from '@mui/material';
 
 export default () => (
+  <>
   <Grid container spacing={2}>
-    <Grid item xs={12} sm={6} md={3}>
-      <Card>
-        <CardContent>
-          <Typography variant="h6" component="div">
-            Aspirations and Commitment
-          </Typography>
-          <List>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Embracing Design Patterns</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Mastering Data Structures and Algorithms</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Advocating for Clean code</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Implementing Test Driven Development</ListItem>
-          </List>
-        </CardContent>
-      </Card>
-    </Grid>
-
-    <Grid item xs={12} sm={6} md={3}>
-      <Card>
-        <CardContent>
-          <Typography variant="h6" component="div">
-            Programming Skill
-          </Typography>
-          <List>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Good Coding Practice - Coding Style</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Battle-tested Logic - Experienced with Edge Cases</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Python - Pythonic syntaxes</ListItem>
-          </List>
-        </CardContent>
-      </Card>
-    </Grid>
-
-    <Grid item xs={12} sm={6} md={3}>
+    <Grid item xs={12} sm={6} md={4}>
       <Card>
         <CardContent>
           <Typography variant="h6" component="div">
@@ -57,7 +27,7 @@ export default () => (
       </Card>
     </Grid>
 
-    <Grid item xs={12} sm={6} md={3}>
+    <Grid item xs={12} sm={6} md={4}>
       <Card>
         <CardContent>
           <Typography variant="h6" component="div">
@@ -67,13 +37,12 @@ export default () => (
             <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>HTML CSS JS JQUERY BOOTSTRAP</ListItem>
             <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>C# .NET CORE MVC-Razor Pages</ListItem>
             <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Java SpringBoot CRUD, JWT</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Flutter BLoC, Kotlin</ListItem>
           </List>
         </CardContent>
       </Card>
     </Grid>
 
-    <Grid item xs={12} sm={6} md={3}>
+    <Grid item xs={12} sm={6} md={4}>
       <Card>
         <CardContent>
           <Typography variant="h6" component="div">
@@ -88,7 +57,7 @@ export default () => (
       </Card>
     </Grid>
 
-    <Grid item xs={12} sm={6} md={3}>
+    <Grid item xs={12} sm={6} md={4}>
       <Card>
         <CardContent>
           <Typography variant="h6" component="div">
@@ -102,8 +71,50 @@ export default () => (
         </CardContent>
       </Card>
     </Grid>
+    <Grid item xs={12} sm={6} md={4}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" component="div">
+            Mobile Application Skill
+          </Typography>
+          <List>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Flutter BLoC</ListItem>            
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Kotlin</ListItem>
+          </List>
+        </CardContent>
+      </Card>
+    </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" component="div">
+            Aspirations and Commitment
+          </Typography>
+          <List>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Embracing Design Patterns</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Mastering Data Structures and Algorithms</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Advocating for Clean code</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Implementing Test Driven Development</ListItem>
+          </List>
+        </CardContent>
+      </Card>
+    </Grid>
 
-    <Grid item xs={12} sm={6} md={3}>
+    <Grid item xs={12} sm={6} md={4}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" component="div">
+            Programming Skill
+          </Typography>
+          <List>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Good Coding Practice - Coding Style</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Battle-tested Logic - Experienced with Edge Cases</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Python - Pythonic syntaxes</ListItem>
+          </List>
+        </CardContent>
+      </Card>
+    </Grid>
+        <Grid item xs={12} sm={6} md={4}>
       <Card>
         <CardContent>
           <Typography variant="h6" component="div">
@@ -115,6 +126,8 @@ export default () => (
           </List>
         </CardContent>
       </Card>
-    </Grid>
   </Grid>
+</Grid>
+
+</>
 );
