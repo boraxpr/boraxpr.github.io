@@ -75,3 +75,8 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.img.skills {
+    width: 100px;
+    height: 100px;
+}
