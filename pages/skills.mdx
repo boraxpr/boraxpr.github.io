@@ -3,60 +3,118 @@ type: page
 title: Skills
 date: 2023-11-02
 ---
-export const imageSize = "50%";
-export const imageSize2 = "15%";
 
-| Aspirations and Commitment                      |    
-| ---------------------------------------|
-| Embracing Design Patterns      | 
-| Mastering Data Structures and Algorithms | 
-| Advocating for Clean code|
-| Implementing Test Driven Development|
+import { Card, CardContent, Typography, Grid, List, ListItem } from '@mui/material';
 
+export default () => (
+  <Grid container spacing={2}>
+    <Grid item xs={12} sm={6} md={3}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" component="div">
+            Aspirations and Commitment
+          </Typography>
+          <List>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Embracing Design Patterns</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Mastering Data Structures and Algorithms</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Advocating for Clean code</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Implementing Test Driven Development</ListItem>
+          </List>
+        </CardContent>
+      </Card>
+    </Grid>
 
+    <Grid item xs={12} sm={6} md={3}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" component="div">
+            Programming Skill
+          </Typography>
+          <List>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Good Coding Practice - Coding Style</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Battle-tested Logic - Experienced with Edge Cases</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Python - Pythonic syntaxes</ListItem>
+          </List>
+        </CardContent>
+      </Card>
+    </Grid>
 
+    <Grid item xs={12} sm={6} md={3}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" component="div">
+            New Web Technology Skill
+          </Typography>
+          <List>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>TailwindCSS</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Material UI</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>React (Hooks, Router)</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>NextJs (Client, Server, API), New /App Router</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Firebase Authentication</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Supabase</ListItem>
+          </List>
+        </CardContent>
+      </Card>
+    </Grid>
 
-| Programming Skill                      |                   | Implementations                                          |
-| ---------------------------------------|------ | -------------------------------------------------------------------- |
-| Good Coding Practice - Coding Style      | <img src="./13706.png" width={imageSize}/>| DRY, CLEAN, Return Early Pattern, Implicit Boolean Expression                                                     |
-| Battle-tested Logic - Experienced with Edge Cases|<img src="./13706.png" width={imageSize}/>|https://github.com/boraxpr/bitesofpy|
-| Python - Pythonic syntaxes                          |<img src="./Python-logo-notext.svg.png" width={imageSize}/>| https://github.com/boraxpr/automate_utils                            |
+    <Grid item xs={12} sm={6} md={3}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" component="div">
+            Legacy Web Technology Skill 
+          </Typography>
+          <List>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>HTML CSS JS JQUERY BOOTSTRAP</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>C# .NET CORE MVC-Razor Pages</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Java SpringBoot CRUD, JWT</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Flutter BLoC, Kotlin</ListItem>
+          </List>
+        </CardContent>
+      </Card>
+    </Grid>
 
-| New Web Technology Skill                      |                   | Implementations                                          |
-| ------------------------------------------|--- | -------------------------------------------------------------------- |
-| TailwindCSS                                |<img src="./tailwind.png" width={imageSize}/>| https://github.com/boraxpr/RickAndMorty |
-| Material UI                               |<img src=".\logo.png" width={imageSize} />|https://github.com/boraxpr/RickAndMorty|
-| React (Hooks, Router)                      |<img src=".\React-icon.svg.png" width={imageSize} />| https://github.com/boraxpr/RickAndMorty                              |
-| NextJs (Client, Server, API), New /App Router  |<img src="./Untitled.png"/>| https://github.com/boraxpr/webapp                                    |
-| Firebase Authentication                   |<img src="./firebase.png" width={imageSize}/>|https://github.com/boraxpr/webapp|
-|Supabase|<img src=".\1 MpDbGkmXHLzow_m63qJBPA.jpg" width={imageSize}/>|https://github.com/boraxpr/nextauth-supabase-app-router|
+    <Grid item xs={12} sm={6} md={3}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" component="div">
+            Database Administration Skill
+          </Typography>
+          <List>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Advanced SQL, Stored Procedure</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Data Visualization – Grafana Dashboard</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>NOSQL - MongoDB Atlas</ListItem>
+          </List>
+        </CardContent>
+      </Card>
+    </Grid>
 
+    <Grid item xs={12} sm={6} md={3}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" component="div">
+            DevOps Skill
+          </Typography>
+          <List>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Linux</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Elasticsearch-Kibana&Fleet - ELK Stack for Microservices Monitoring</ListItem>
+            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Dockerize - Able to Deploy Apps on Docker and use Docker commands</ListItem>
+          </List>
+        </CardContent>
+      </Card>
+    </Grid>
 
-|  Legacy Web Technology Skill (Solid foundation)            |                  | Implementations                                          |
-| ------------------------------------------|--- | -------------------------------------------------------------------- |
-| HTML CSS JS JQUERY BOOTSTRAP              |<img src="./htmlcssjs-overview.png" width={imageSize}/>| https://github.com/boraxpr/jQuery-bootstrap-calculator               |
-| C# .NET CORE MVC-Razor Pages                         |<img src="./dot-NET-Core.png" width={imageSize}/>| https://github.com/boraxpr/SeniorLibrary                             |
-| Java SpringBoot CRUD, JWT                 |<img src="./spring-boot-logo.png" width={imageSize}/>| https://github.com/boraxpr/SpringBoot_Gemini                         |
-| Flutter BLoC, Kotlin                       |<img src="./bloc-flutter.png" width={imageSize}/>| https://github.com/boraxpr/roll_a_dice                               |
-
-
-
-| Database Administration Skill                                         |                                               |
-| --------------------------------------------- | -------------------------------------------------------------------- |
-| Advanced SQL, Stored Procedure         |                         |                                                                      |
-| Data Visualization – Grafana Dashboard     |<img src="./Grafana_logo.svg.png" width={imageSize2}/> |                                                                      |
-| NOSQL - MongoDB Atlas |<img src="./3b68ca31-c02a-4315-bc4d-9dab585503b5.png" width={imageSize}/>||
-
-
-
-
-| DevOps Skill                                   |      | Implementations                                               |
-| ------------------------------------------|--- | -------------------------------------------------------------------- |
-| Linux                                         | <img src="./Tux.svg.png" width={imageSize} /> | Debian-based, RPM-based, Advanced Shell                              |
-| Elasticsearch-Kibana&Fleet - ELK Stack for Microservices Monitoring |<img src="./ELK_stack.png" width={imageSize}/> | https://github.com/boraxpr/Dockerfile_Examples |
-| Dockerize - Able to Deploy Apps on Docker and use Docker commands| <img src="./Docker_facebook_share.png" width={imageSize}/>|https://github.com/boraxpr/Dockerfile_Examples|
-
-| Hardware-Propotyping Skill                          | Implementations                                                      |
-| --------------------------------------------- | -------------------------------------------------------------------- |
-| RaspberryPI, Arduino, Particle.io    | https://github.com/boraxpr/ESP32-RPI-monitoring-system               |
-| | 7-segment, Ultrasonic module, Infrared camera module, Temperature module, LED, LCD |
+    <Grid item xs={12} sm={6} md={3}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" component="div">
+            Hardware-Prototyping Skill
+          </Typography>
+          <List>
+            <ListItem sx={{ my: 0, fontSize: '0.875rem' , lineHeight: 1.43, color: 'text.secondary' }}>RaspberryPI, Arduino, Particle.io</ListItem>
+            <ListItem sx={{ my: 0, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>7-segment, Ultrasonic module, Infrared camera module, Temperature module, LED, LCD</ListItem>
+          </List>
+        </CardContent>
+      </Card>
+    </Grid>
+  </Grid>
+);
