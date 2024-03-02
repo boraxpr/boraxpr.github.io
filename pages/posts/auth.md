@@ -33,18 +33,27 @@ JavaScript Object Notation Web Token. Ok, just ignore that. Basically, JWT is a 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
 
+### The JWT
+
 Anyone can decode JWT, sees its content. But Only the one with its pro·gen·i·tor "SECRET" is able to edit, verify and create more JWT cute childlings. Hence, JWTs can provide data integrity, authenticity but lacks confidentiality.
 
 Now, After you know about the JWT secret and their ability to create more childs.
 
-/login : After successfully verify username and password, response with cookie (Don't forget to use Set-Cookie to make the browser automatically handles the cookie safely) and user info.
+### The Back-End & JWT interaction
+
+**/login**: After successfully verify username and password, response with cookie (Don't forget to use Set-Cookie to make the browser automatically handles the cookie safely) and user info.
 <br>
-/session : Will check the cookie from the client (Automatically sent on every subsequences)
+**/session** : Will check the cookie from the client (Automatically sent on every subsequences)
 
 Here is more things you need to know. Cookie Expiration controls how long the cookie will be stored and sent by the browser. Once it has expired, the browser will not include it in requests to the server. JWT Expiration controls the validation on the server-side. The secret and the expiry of JWT will be cross checked on parsing and JWT childs that passed their expiry are invalid.
 
-This method of cookie-token has one of its downside being when you need multiple domain to call the server apis. If that's the case then you would need "Token based Authentication" which is basically everything Cookie-Token Based Authentication is minus "Set-Cookie". Now you need to send the JWT token via header "Authorization: Bearer [Your token]" and on the client-side you would need to manually unpack it and store it somewhere (LocalStorage, SessionStorage, Cookie, Application Memory, Web Worker). And then you would need to include the said token on every requests to the apis. And use backend auth middleware implementation to intercept and verify all requests.
+### The limitations
+
+This method of cookie-token has one of its downside being when you need multiple domain to call the server apis. If that's the case then you would need "Token based Authentication" which is basically everything Cookie-Token Based Authentication is minus "Set-Cookie". Now you need to send the JWT token via header "Authorization: Bearer [Your token]" (This format is a socially accepted. But it's not enforced by the client because you will need to do it all manually for using Token-based Authentication.) and on the client-side you would need to manually unpack it and store it somewhere (LocalStorage, SessionStorage, Cookie, Application Memory, Web Worker). And then you would need to include the said token on every requests to the apis. And use backend auth middleware implementation to intercept and verify all requests. However, there will be nuances of security issues in this method that requires more effort such as utilizing encryption and hashing algorithms. That is also take a toll on the performance on each token retrieval.
+
+## Conclusion
 
 In conclusion, the keywords are JWT secrets (Secret can be used to verify, create more JWT child), Set-Cookie (Let your browser automate cookie management far out of JavaScript reach), Use the server and finally do not trust the client.<br>
-<https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie><br>
+
+<https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie>
 <https://owasp.org/www-community/HttpOnly>
