@@ -22,6 +22,11 @@ However, problem-solving is not a simple copy-and-paste operation. It requires a
 Of course, If you insert Leetcode style problems into your LLMs, they will be able to solve because these types of problems are used over and over again.
 Like University Admissions Exams. There are only few original problems and they only change the wordings. And the solutions are all over the internet.
 
+![alt text](image.png)
+Here is an image that I try to make up "King Mantisoraya" asking LLM "who is King Mantisoraya".
+The LLM replies suggested that Mantisoraya is a character from the anime and manga "Yu-Gi-Oh!".
+However, after I try to search on Google, I find nothing closely related to the name of the character in Yu-Gi-Oh anime.
+
 LLMs look promising and feel promising because the premise is that all their outcomes are human responses. They have been designed to do so. They might replace your tinder girlfriends. They are best at knowing what you want as a response but worst for the truth-seeking and problem-solving.
 
 LLM lacks true understanding. That’s why they will never be able to guarantee their response correctness based on their internal understanding. Basing on statistics, LLM is bound to always be sound correctful that’s why they will always be hallucinating. At its core, hallucination is LLM core. That alone would put them in a place that is unable to replace human.
