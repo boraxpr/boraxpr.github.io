@@ -10,7 +10,7 @@ There has been a significant push from online courses, influencers, and governme
 
 Recently, Jensen Huang, CEO of Nvidia, made headlines with his statement: "Don't learn to code." At the World Government Summit in Dubai, he furthered this narrative by suggesting that AI will replace coders, stating, "Everyone is now a programmer."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6Lcy2N3YcIs?si=baOEsfpi2l5a5Deq&amp;start=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="300px" src="https://www.youtube.com/embed/6Lcy2N3YcIs?si=baOEsfpi2l5a5Deq&amp;start=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Firstly, I want to clarify that I'm not opposed to AI. It's helpful, save my time and potentially will remedy the labor shortages due to the aging society in next 20 years but it won't kill programmers.
 
@@ -22,8 +22,8 @@ However, problem-solving is not a simple copy-and-paste operation. It requires a
 Of course, If you insert Leetcode style problems into your LLMs, they will be able to solve because these types of problems are used over and over again.
 Like University Admissions Exams. There are only few original problems and they only change the wordings. And the solutions are all over the internet.
 
-![alt text](image.png)
-Here is an image that I try to make up "King Mantisoraya" asking LLM "who is King Mantisoraya".
+![alt text](./image.png)
+<br>Here is an image that I try to make up "King Mantisoraya" asking LLM "who is King Mantisoraya".
 The LLM replies suggested that Mantisoraya is a character from the anime and manga "Yu-Gi-Oh!".
 However, after I try to search on Google, I find nothing closely related to the name of the character in Yu-Gi-Oh anime.
 
