@@ -16,7 +16,7 @@ The primary reason behind using multi-stage builds is to keep the final images s
 
 ### 1.Image Size
 
-When building Docker images, size matters. A smaller Docker image will lead to faster deployment times, which is critical in a CI/CD environment. It also reduces the attack surface area and thus improves security. 2. Build-Time Dependencies
+When building Docker images, size matters. A smaller Docker image will lead to faster deployment times, which is critical in a CI/CD environment. It also reduces the attack surface area and thus improves security.
 
 ### 2.Build-Time Dependencies
 
