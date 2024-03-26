@@ -5,17 +5,19 @@ date: 2024-03-26
 ---
 
 # Introduction
+
 The how is what you needed most for getting anything done. But in order to connect the dots, you must collectively consider the why.
 Years of experience often be one of the most gauge when it comes to perceivable effectiveness of devs.
 However, It's so easy to have 1 years of experience 10 times and call it 10 years experience.
 
 # Scientific Coding
+
 It's important to avoid using faith in programming. It always has a cost when all you understand is "it just works". The price is you never grow. Moreover, the memorization over understanding increases the probability of preaching to everyone that it needs to be done that way.
 
 For database, 3-4 years ago it's MongoDB, "we all must use NoSQL because it scales".
 For frontend, it's React, "we all must use React [insert arguments here]".
 
-In reality, it's all about the why. It's harder to understand why. You must know why before you analytically know what tools should be used to solve the problem. 
+In reality, it's all about the why. It's harder to understand why. You must know why before you analytically know what tools should be used to solve the problem.
 
 # Why?
 
