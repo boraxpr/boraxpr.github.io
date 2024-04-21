@@ -156,7 +156,7 @@ class Machinery {
   private boolean isAutomata;
 }
 
-class Car {
+class Car extends Machinery {
   private String color;
   private String brand;
   private String model;
