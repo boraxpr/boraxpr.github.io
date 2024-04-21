@@ -163,11 +163,6 @@ class Car extends Machinery {
 }
 ```
 
-It's important to remember that inheritance should not be used for behavior. Using inheritance for behavior will lead to tight coupling and a rigid class hierarchy and hence, a spaghetti-unmaintainable code.
-Despite this, many developers mistakenly use inheritance for behavior and consider it as object-oriented programming. However, true object-oriented programming involves using inheritance to model relationships between objects, not just to share behavior. 
-
-In this approach, objects interact through messages and method calls, emphasizing the definition of meaningful relationships and interactions between objects over the organization of code around data structures and operations.
-
-In true object oriented approach, inheritance is used to model relationships between objects, not just to share behavior. Objects interact with each other through messages and method calls. The key is to define meaningful relationships and interactions between objects, rather than organizing code around data structures and operations.
+Inheritance should not be used for behavior in object-oriented programming. Doing so leads to tight coupling, a rigid class hierarchy, and spaghetti-unmaintainable code. Many developers mistakenly use inheritance for behavior, considering it as true object-oriented programming. However, in true object-oriented programming, inheritance is used to model relationships between objects. Objects interact with each other through messages and method calls, emphasizing meaningful relationships and interactions over organizing code around data structures and operations.
 
 Let's write the maintainable, reusable, testable code by using OOP as intended by the original creator.
