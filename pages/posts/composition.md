@@ -112,7 +112,7 @@ interface Driveable{
 }
 
 interface Fuelable{
-  void fillFuel();
+  void fillFuel(Car car);
   default void startEngine(Car car) {
     System.out.println("Starting fuel engine");
   }
@@ -138,6 +138,52 @@ class HybridCar implements Driveable, Fuelable, Chargeable {
 }
 
 ```
+
+Another thing that we can do is, we can use generic type to allow interfaces to be more flexible. 
+
+```java
+
+class Car {
+  private String color;
+  private String brand;
+  private String model;
+}
+
+class Bike {
+  private String color;
+  private String brand;
+  private String model;
+}
+
+interface Driveable<T> {
+  default void drive(T self) {
+    System.out.println("Driving");
+  }
+}
+
+interface Fuelable<T> {
+  void fillFuel(T self);
+  default void startEngine(T self) {
+    System.out.println("Starting fuel engine");
+  }
+}
+
+interface Chargeable<T> {
+  void charge(T self);
+  default void startEngine(T self) {
+    System.out.println("Starting electric engine");
+  }
+}
+
+class sportsCar implements Driveable<Car>, Fuelable<Car> {
+}
+
+class roadBike implements Driveable<Bike>, Fuelable<Bike> {
+}
+
+```
+
+Instead of fixing these interfaces to allow just Car, we can use generic type. This opens up new possibilities of implementing by other types. For example, Bike that can also implement Driveable (Not a Car).
 
 ## Benefits of Composition
 
