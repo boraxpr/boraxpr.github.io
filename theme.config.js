@@ -4,7 +4,7 @@ const YEAR = new Date().getFullYear()
 export default {
   darkMode: true,
   footer: (
-    <footer className="bg-gray-800 text-white py-4 fixed bottom-0 left-0 right-0 shadow-lg">
+    <footer className="bg-gray-800 text-white fixed bottom-0 left-0 right-0 shadow-lg">
       <div className="mx-auto flex md:flex-col flex-row  items-center justify-between px-4 ">
         <div className="text-center md:text-left">
           <time>&copy; {YEAR} Naipawat Poolsawat. All rights reserved.</time>
