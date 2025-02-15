@@ -23,6 +23,11 @@ Of course, If you insert Leetcode style problems into your LLMs, they will be ab
 Like University Admissions Exams. There are only few original problems and they only change the wordings. And the solutions are all over the internet.
 
 ![alt text](./image.png)
+
+*Here is the 2025 update: After ChatGPT was debunked, attempts were made to patch hallucinations. However, if users provide incorrect information, LLMs will still hallucinate *
+![alt text](image-2.png)
+🤦
+
 <br>Here is an image that I try to make up "King Mantisoraya" asking LLM "who is King Mantisoraya".
 The LLM replies suggested that Mantisoraya is a character from the anime and manga "Yu-Gi-Oh!".
 However, after I try to search on Google, I find nothing closely related to the name of the character in Yu-Gi-Oh anime.
