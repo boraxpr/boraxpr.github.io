@@ -1,133 +1,119 @@
 ---
 type: page
 title: Skills
-date: 2023-11-02
+date: 2025-06-03
 ---
 
-import { Card, CardContent, Typography, Grid, List, ListItem } from '@mui/material';
+import { Typography, Box, List, ListItem, Paper } from '@mui/material';
 
-export default () => (
-  <>
-  <Grid container spacing={2}>
-    <Grid item xs={12} sm={6} md={4}>
-      <Card>
-        <CardContent>
-          <Typography variant="h6" component="div">
-            New Web Technology
-          </Typography>
-          <List>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>TailwindCSS</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Material UI</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>React (Hooks, Router)</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>NextJs (Client, Server, API), New /App Router</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Firebase Authentication</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Supabase</ListItem>
-          </List>
-        </CardContent>
-      </Card>
-    </Grid>
+export default function SkillsPage() {
+    const SkillSection = ({ title, skills }) => (
+        <Paper
+            elevation={2}
+            sx={{
+                p: 3,
+                borderRadius: 3,
+                mb: 1, // Reduced from 2 to 1 (8px instead of 16px)
+                display: 'block', // Changed from 'inline-block'
+                width: '100%',
+                breakInside: 'avoid'
+            }}
+        >
+            <Typography variant="h6" gutterBottom>{title}</Typography>
+            {skills.map((skill, index) => (
+      <Box
+        key={index}
+        sx={{
+          fontSize: '0.875rem',
+          lineHeight: 1.6,
+          color: 'text.primary',
+          mb: 1
+        }}
+      >
+        {skill}
+      </Box>
+    ))}
 
-    <Grid item xs={12} sm={6} md={4}>
-      <Card>
-        <CardContent>
-          <Typography variant="h6" component="div">
-            Legacy Web Technology 
-          </Typography>
-          <List>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>HTML CSS JS JQUERY BOOTSTRAP</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>C# .NET CORE MVC-Razor Pages</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Java SpringBoot CRUD, JWT</ListItem>
-          </List>
-        </CardContent>
-      </Card>
-    </Grid>
+        </Paper>
+    );
 
-    <Grid item xs={12} sm={6} md={4}>
-      <Card>
-        <CardContent>
-          <Typography variant="h6" component="div">
-            Database Administration
-          </Typography>
-          <List>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Advanced SQL, Stored Procedure</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Data Visualization – Grafana Dashboard</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>NOSQL - MongoDB Atlas</ListItem>
-          </List>
-        </CardContent>
-      </Card>
-    </Grid>
-
-    <Grid item xs={12} sm={6} md={4}>
-      <Card>
-        <CardContent>
-          <Typography variant="h6" component="div">
-            DevOps
-          </Typography>
-          <List>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Linux</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Elasticsearch-Kibana&Fleet - ELK Stack for Microservices Monitoring</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Dockerize - Able to Deploy Apps on Docker and use Docker commands</ListItem>
-          </List>
-        </CardContent>
-      </Card>
-    </Grid>
-    <Grid item xs={12} sm={6} md={4}>
-      <Card>
-        <CardContent>
-          <Typography variant="h6" component="div">
-            Mobile Application
-          </Typography>
-          <List>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Flutter BLoC</ListItem>            
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Kotlin</ListItem>
-          </List>
-        </CardContent>
-      </Card>
-    </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-      <Card>
-        <CardContent>
-          <Typography variant="h6" component="div">
-            Aspirations and Commitment
-          </Typography>
-          <List>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Embracing Design Patterns</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Mastering Data Structures and Algorithms</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Advocating for Clean code</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Implementing Test Driven Development</ListItem>
-          </List>
-        </CardContent>
-      </Card>
-    </Grid>
-
-    <Grid item xs={12} sm={6} md={4}>
-      <Card>
-        <CardContent>
-          <Typography variant="h6" component="div">
-            Strong Programming Foundation
-          </Typography>
-          <List>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Good Coding Practice - Coding Style</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Battle-tested Logic - Experienced with Edge Cases</ListItem>
-            <ListItem sx={{ my: 0.5, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>Python - Pythonic syntaxes</ListItem>
-          </List>
-        </CardContent>
-      </Card>
-    </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-      <Card>
-        <CardContent>
-          <Typography variant="h6" component="div">
-            Hardware-Prototyping Skill
-          </Typography>
-          <List>
-            <ListItem sx={{ my: 0, fontSize: '0.875rem' , lineHeight: 1.43, color: 'text.secondary' }}>RaspberryPI, Arduino, Particle.io</ListItem>
-            <ListItem sx={{ my: 0, fontSize: '0.875rem', lineHeight: 1.43, color: 'text.secondary' }}>7-segment, Ultrasonic module, Infrared camera module, Temperature module, LED, LCD</ListItem>
-          </List>
-        </CardContent>
-      </Card>
-  </Grid>
-</Grid>
-
-</>
-);
+    return (
+        <Box sx={{ px: 2, py: 4 }}>
+            <Box
+                sx={{
+                    columnCount: { xs: 1, sm: 2, md: 3 },
+                    columnGap: 1.5, 
+                    columnFill: 'balance'
+                }}
+            >
+                            <SkillSection
+                    title="🧩 System Design & Engineering Practice"
+                    skills={[
+                        "System Thinking & Modular Architecture",
+                        "Platform Engineering (Dev Experience, CI/CD UX, Tooling)",
+                        "System Integration – Low-Code to High-Code Bridge",
+                        "Service Composition & Code Responsibility",
+                        "Prompt Engineering for LLM Systems",
+                        "Risk-aware Development & Scope Control"
+                    ]}
+                />
+                                <SkillSection
+                    title="💻 Languages"
+                    skills={[
+                        "Python", "SQL", "Java", "JavaScript", "Go", "Rust"
+                    ]}
+                />
+                <SkillSection
+                    title="🧭 Programming Paradigms"
+                    skills={[
+                        "Object-Oriented Programming (Done Right)",
+                        "Practical Functional Programming",
+                        "Declarative Style"
+                    ]}
+                />
+                <SkillSection
+                    title="📚 Frameworks – Web & Frontend"
+                    skills={[
+                        "React", "Vue.js", "Next.js", "Nuxt.js", "UmiJS", "Flutter"
+                    ]}
+                />
+                <SkillSection
+                    title="📚 Frameworks – Backend & APIs"
+                    skills={[
+                        "NestJS", "Spring Boot", "JHipster", "Axum", "Chi"
+                    ]}
+                />
+                <SkillSection
+                    title="🗄️ Databases"
+                    skills={[
+                        "PostgreSQL", "SQL Server", "MongoDB"
+                    ]}
+                />
+                <SkillSection
+                    title="🛠 Platform Ops (Internal System Ops)"
+                    skills={[
+                        "🧰 All tools below were self-hosted, configured, and maintained:",
+                        "CI/CD – GitHub Actions, GitLab CI, Jenkins",
+                        "Containerization – Docker, Portainer",
+                        "Monitoring – Grafana",
+                        "Centralized Logging – ELK Stack (Elasticsearch, Logstash, Kibana)",
+                        "Data Pipeline Orchestration – Apache Airflow",
+                        "Internal Dashboards – Apache Superset"
+                    ]}
+                />
+                <SkillSection
+                    title="☁️ Cloud & Deployment"
+                    skills={[
+                        "Azure", "Vercel", "Netlify", "Firebase", "Supabase"
+                    ]}
+                />
+                <SkillSection
+                    title="🧠 AI & Low-Code"
+                    skills={[
+                        "ChatGPT", "Claude", "OutSystems"
+                    ]}
+                />
+            </Box>
+        </Box>
+    );
+}
