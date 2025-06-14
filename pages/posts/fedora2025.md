@@ -86,7 +86,8 @@ Modern Linux Desktop Stack:
               └─────────────────────────┘
 ```
 
->> There is no true non-moving part on Linux, you can change anything but it comes with bugs if they are not designed with that specific combination integration.
+> There is no true non-moving part on Linux, you can change anything but it comes with bugs if they are not designed with that specific combination integration.  
+
 As for Fedora KDE Spin, the non-moving parts are WM (KWin) + Display Server (Wayland) + NVIDIA PROPRIETARY DRIVER. 
 The problem is that while Fedora pushes Wayland as a hard default, There are multiple apps that are not yet built to use Wayland Client APIs that means they still use X11.
 Now Wayland solves that problem by providing XWayland APIs aims to support these apps and fall them back on to X11. This makes it's possible to run X11 apps on Wayland without crashing.
