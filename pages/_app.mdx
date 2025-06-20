@@ -1,28 +1,94 @@
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
-
+import { useRouter } from 'next/router'
+import { AnimatePresence, motion,ball, animate } from 'framer-motion'
+import { SocialIcon } from 'react-social-icons'
+import {useEffect} from 'react'
+import HijackedScrambledTitle  from './components/HijackedScrambledTitle'
+import ReactDOM from 'react-dom'
+import dynamic from 'next/dynamic'
 import '../styles/main.css'
+import { createRoot } from 'react-dom/client'
 
 export default function Nextra({ Component, pageProps }) {
-  return (
-    <>
-      <Head>
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="RSS"
-          href="/feed.xml"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Inter-roman.latin.var.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        
-      </Head>
-      <Component {...pageProps} />
-    </>
-  )
+  const router = useRouter()
+const YEAR = new Date().getFullYear()
+
+useEffect(() => {
+const h1 = document.querySelector('h1')
+if (!h1 || !h1.textContent) return
+
+const title = h1.textContent
+h1.textContent = ''
+
+const container = document.createElement('span')
+h1.appendChild(container)
+
+const root = createRoot(container)
+root.render(<HijackedScrambledTitle text={title} />)
+
+return () => {
+root.unmount()
+container.remove()
 }
+}, [])
+
+return (
+
+<>
+  <Head>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="/feed.xml"
+    />
+    <link
+      rel="preload"
+      href="/fonts/Inter-roman.latin.var.woff2"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+    />
+  </Head>
+  <AnimatePresence mode="wait">
+    <motion.div
+      key={router.asPath}
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.4,
+        type: 'spring',
+        stiffness: 300,
+        damping: 20,
+        bounce: 0.4
+      }}
+      style={ball}
+    >
+      <Component {...pageProps} />
+    </motion.div>
+  </AnimatePresence>
+  <footer className="bg-gray-800 text-white fixed bottom-0 left-0 right-0 shadow-lg">
+    <div className="mx-auto flex md:flex-col flex-row  items-center justify-between px-4 ">
+      <div className="text-center md:text-left">
+        <time>&copy; {YEAR} Naipawat Poolsawat. All rights reserved.</time>
+      </div>
+      <div className="text-center md:text-left ">
+        <sub>Programming language, Operating System calls, Memory.</sub>
+      </div>
+      <div className="flex justify-center md:justify-end md:mt-4 mt-0 gap-5">
+        <SocialIcon
+          url="https://linkedin.com/in/naipawat"
+          fgColor="#FFFFFF"
+          className="border border-black rounded-full shadow-lg"
+        />
+        <SocialIcon
+          url="https://www.github.com/boraxpr"
+          fgColor="#FFFFFF"
+          className="border border-black rounded-full shadow-lg"
+        />
+      </div>
+    </div>
+  </footer>
+</>
+) }
