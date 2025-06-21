@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { AnimatePresence, motion,ball, animate } from 'framer-motion'
 import { SocialIcon } from 'react-social-icons'
-import {useEffect} from 'react'
+import {useEffect, useRef} from 'react'
 import HijackedScrambledTitle  from './components/HijackedScrambledTitle'
 import ReactDOM from 'react-dom'
 import dynamic from 'next/dynamic'
@@ -12,26 +12,41 @@ import { createRoot } from 'react-dom/client'
 
 export default function Nextra({ Component, pageProps }) {
   const router = useRouter()
-const YEAR = new Date().getFullYear()
+  const YEAR = new Date().getFullYear()
+const containerRef = useRef(null)
+const rootRef = useRef(null)
 
-useEffect(() => {
-const h1 = document.querySelector('h1')
-if (!h1 || !h1.textContent) return
 
-const title = h1.textContent
-h1.textContent = ''
+  useEffect(() => {
+    // Add a small delay to ensure DOM is ready after animations
+    const timer = setTimeout(() => {
+      const h1 = document.querySelector('h1')
+      if (!h1 || !h1.textContent) return
 
-const container = document.createElement('span')
-h1.appendChild(container)
+      const title = h1.textContent
+      h1.textContent = ''
 
-const root = createRoot(container)
-root.render(<HijackedScrambledTitle text={title} />)
+      const container = document.createElement('span')
+      containerRef.current = container
+      h1.appendChild(container)
 
-return () => {
-root.unmount()
-container.remove()
-}
-}, [])
+      const root = createRoot(container)
+      rootRef.current = root
+      root.render(<HijackedScrambledTitle key={router.pathname} text={title} />)
+    }, 100) // Small delay to ensure DOM is ready
+
+    return () => {
+      clearTimeout(timer)
+      if (rootRef.current) {
+        rootRef.current.unmount()
+        rootRef.current = null
+      }
+      if (containerRef.current && containerRef.current.parentNode) {
+        containerRef.current.remove()
+        containerRef.current = null
+      }
+    }
+  }, [router.pathname])
 
 return (
 
