@@ -4,11 +4,12 @@ export default function HijackedScrambledTitle({ text }) {
 
   const { ref, replay } = useScramble({
     text,
-    speed: 0.8,
-    scramble: 3,
-    chance: 0.1,
-    overflow: false
+    speed: 1,
+    scramble: 10,
+    chance: 0.8,
+    overdrive: false,
+    step: 3
   })
 
-  return <span ref={ref} style={{ display: 'inline-block' }} />
+  return <span ref={ref} onMouseEnter={replay} onClick={replay} style={{ display: 'inline-block' }} />
 }
