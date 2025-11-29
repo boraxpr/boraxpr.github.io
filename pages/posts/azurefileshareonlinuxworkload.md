@@ -17,6 +17,9 @@ The problems appear when you do:
 * database-style workloads
 * TSDB/WAL workloads
 
+> WAL = Write-Ahead Log used by Prometheus TSDB, Loki (Single binary/local mode), Postgres DB, Other reliable databases. It is used for making ingestion resilient: if the service crashes, data is not lost.
+> [Read more](https://www.postgresql.org/docs/current/wal-intro.html)
+
 This is where Azure File Share fails.
 
 ---
