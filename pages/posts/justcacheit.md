@@ -4,7 +4,7 @@ title: 'Someone Told Me ‘Just Add Cache’, Here’s What Actually Happened'
 date: 2025-11-29
 ---
 
-![REDIS](image-4.png)
+![REDIS](./image-4.png)
 In this era, it’s incredibly easy to take a wrong turn. Large language models answer with confidence, and that confidence tends to spill into human conversations. People, regardless of their actual experience, can end up suggesting architectural decisions they aren’t equipped to evaluate. “Just add cache” is one of the most common oversimplifications.
 
 We’re running an application with multiple instances on Kubernetes, and like everyone else who has done horizontal scaling, we have Redis as a shared component.
