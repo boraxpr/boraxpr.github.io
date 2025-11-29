@@ -3,7 +3,7 @@ type: post
 title: 'Atomicity is not magic'
 date: 2025-11-29
 ---
-![alt text](image-2.png)
+![aciddb](./image-2.png)
 
 > image from : https://www.scylladb.com/glossary/acid-database/
 
