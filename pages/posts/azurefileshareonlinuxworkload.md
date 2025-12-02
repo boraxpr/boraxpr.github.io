@@ -167,13 +167,46 @@ Windows-like filesystems do not.
 
 Azure File Share:
 
-* SMB = Windows semantics
-* NFS = POSIX emulation
-* Backend = Windows ACL engine
-* No real POSIX consistency
-* Not safe for TSDB/WAL/database workloads
+* SMB uses Windows filesystem semantics,
+* NFSv4.1 is only a POSIX *emulation* layer,
+* Backend permissions logic is Windows ACL based,
+* Atomicity, metadata, and inode behavior do not match real Linux filesystems,
 
-This is why corruption eventually occurs under high write/rename/delete workloads.
+Which means it **cannot guarantee consistency** for workloads that rely on strict POSIX guarantees.
 
-TLDR: Do not use Azure File Share (SMB or NFS) for any database, TSDB, WAL, or index-heavy workload.
-Use Azure Storage Blob instead.
+This is exactly why corruption eventually shows up under:
+
+* TSDB workloads (Prometheus, Loki)
+* WAL-heavy systems
+* database workloads
+* anything doing rapid rename/delete cycles
+* anything depending on strong inode semantics
+
+### TLDR
+
+**Do not use Azure File Share (SMB or NFS) for databases, TSDB, WAL, or any index-heavy workload.  
+Use a strict POSIX-compliant block device instead.**
+
+On Azure, that means:
+
+* **Azure Managed Disks via `managed-csi`**
+* **ext4 or xfs**
+* **ReadWriteOnce (single node)**
+* **Guaranteed POSIX atomicity and metadata stability**
+
+Azure File Share fakes POSIX at the protocol layer but is backed by Windows ACL semantics.  
+That translation introduces nondeterministic behaviors under load.  
+This is not a throughput problem, it is a correctness problem.
+
+Workloads that require *real* Linux filesystem guarantees include:
+
+* Prometheus TSDB
+* Loki local storage
+* Postgres, MySQL
+* Redis with persistence
+* Any ACID database
+* Any component that uses WAL or atomic rename/delete
+
+If your workload cares about data integrity, you must run it on **real disk**, not network-emulated POSIX.
+
+
