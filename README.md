@@ -14,3 +14,6 @@ So I switched to Astro.
 Astro has been noticeably more stable, with fewer breaking changes and far less framework magic. I found a theme I liked and used it as the base for this blog.
 
 Theme: https://github.com/stelcodes/multiterm-astro
+
+## Goodbye GitHub Dependabot !
+![alt text](image.png)
