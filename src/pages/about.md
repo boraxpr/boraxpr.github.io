@@ -1,6 +1,13 @@
 ---
 layout: '~/layouts/MarkdownLayout.astro'
-title: About Me
+title: About
 ---
 
-The laughing kookaburra (Dacelo novaeguineae) is a bird in the kingfisher subfamily Halcyoninae. It is a large robust kingfisher with a whitish head and a brown eye-stripe. The upperparts are mostly dark brown but there is a mottled light-blue patch on the wing coverts. The underparts are cream-white and the tail is barred with rufous and black. The plumage of the male and female birds is similar. The territorial call is a distinctive laugh that is often delivered by several birds at the same time, and is widely used as a stock sound effect in situations that involve a jungle setting.
+- Software engineer (MUICT 2021), TOEIC 940/990  
+- Backend-focused, system-aware, anti-bloat  
+- Fluent in Java, Node.js, Go, Rust, Python, SQL — I use what works when it’s needed  
+- Frameworks are tools — when you understand how the system fits, you don’t depend on magic. From frontend to backend, infra to data, I know how and when to apply modular architecture that lasts  
+- **Platform Engineering** — Engineered and automated internal systems for CI/CD, workflow orchestration, container platforms, and observability — on-prem and in the cloud  
+- **Frontend-capable** — Not your typical fullstack JavaScript-er. I go beyond backend and infra. It’s rare to find a backend engineer who can not only wire up a component UI library to match customer Figma designs, but also dive into raw CSS and solve complex custom styling challenges. I have hands-on experience with React, Vue, and Svelte in real projects, and I’ve explored Angular in my own time to understand its architecture and capabilities.
+- Linux power user (Fedora / Ubuntu / Arch) 
+- I don’t ship junk and run — I own what I build  
