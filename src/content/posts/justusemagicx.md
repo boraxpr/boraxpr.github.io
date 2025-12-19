@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'The “Just Use X” Fallacy'
 published: 2025-12-18
 ---

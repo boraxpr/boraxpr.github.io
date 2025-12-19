@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Damage Absorber: One Year of Senior Engineering Under a Non-Tech Power Structure'
 published: 2025-11-23
 ---

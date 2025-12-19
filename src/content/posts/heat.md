@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: '[Off-topic] Why I Think Hot Countries Are Generally Less Developed Than Colder Countries'
 published: 2025-06-08
 ---

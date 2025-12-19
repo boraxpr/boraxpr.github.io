@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Object Oriented Programming as intended by the original creator, Alan Kay'
 published: 2024-04-20
 ---

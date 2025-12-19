@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Being Lazy is the First Step Toward Creating a Maintainable Solution'
 published: 2024-10-30
 ---

@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Atomicity is not magic'
 published: 2025-11-29
 ---

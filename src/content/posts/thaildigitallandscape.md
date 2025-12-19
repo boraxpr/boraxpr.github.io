@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Bodyshop: Thai Software Job Market Landscape'
 published: 2025-11-23
 ---

@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Understanding Docker Multi-Stage Builds'
 published: 2024-02-25
 ---

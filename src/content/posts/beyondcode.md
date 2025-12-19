@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Balancing Complexity and Simplicity in Frontend Development'
 published: 2024-03-10
 ---

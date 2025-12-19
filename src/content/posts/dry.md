@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'When DRY Becomes Too Dry: Avoiding Over-Complexification'
 published: 2024-07-12
 ------

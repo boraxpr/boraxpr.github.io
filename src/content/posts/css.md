@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Demystifying: CSS The Transition from Vanilla CSS to TailwindCSS'
 published: 2023-10-27
 ---

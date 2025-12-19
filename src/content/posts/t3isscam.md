@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'E2E Typesafety, tRPC, and T3 Stack: Overhyped Hype or Developer Trap?'
 published: 2024-11-24
 ---

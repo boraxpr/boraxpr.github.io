@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'What Is Database Pooling — and Why So Many People Get It Wrong'
 published: 2025-06-06
 ---

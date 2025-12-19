@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Coding is not Going Anywhere: Disagreeing with Jensen Huang'
 published: 2024-03-04
 ---

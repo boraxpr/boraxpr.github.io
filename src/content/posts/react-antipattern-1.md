@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Stop Forcing React to Re-render: Here’s a Better Way'
 published: 2024-06-20
 ---

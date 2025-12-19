@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Understanding Why Azure File Share Fails Under Heavy Linux File Operations'
 published: 2025-11-29
 ---

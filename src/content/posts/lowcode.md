@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: Low code, The code is low until it is not.
 published: 2023-09-22
 ---

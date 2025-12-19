@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'The Cost of a "User-Driven" System with No Filters'
 published: 2025-05-17
 ---

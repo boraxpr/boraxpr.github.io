@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: "React's Evolution: From Higher-Order Components to the Flexibility of Hooks"
 published: 2024-11-17
 ---

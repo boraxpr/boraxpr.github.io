@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Digital Manual: Thailand’s workflow landscape and why we will not see AI adoption at the level of the US'
 published: 2025-11-23
 ---

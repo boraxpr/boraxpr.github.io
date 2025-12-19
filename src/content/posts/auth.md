@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Cookie-Token based Authentication (Client-To-Server)'
 published: 2024-03-02
 ---

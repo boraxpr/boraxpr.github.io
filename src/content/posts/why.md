@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Scientific Coding'
 published: 2024-03-26
 ---

@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'HOT TAKE: I do not use ORMs - Why it should not be used on production, ever'
 published: 2024-04-04
 ---

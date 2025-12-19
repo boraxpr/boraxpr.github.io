@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Dev contents in 2024 make no sense'
 published: 2024-11-07
 ---

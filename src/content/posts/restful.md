@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'RESTful and why it matters'
 published: 2024-06-20
 ---

@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: "[Linux] Fedora 2025: GNOME's Decline, KDE’s Burden, and the Wayland Gamble"
 published: 2025-06-14
 ---

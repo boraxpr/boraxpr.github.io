@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: Art of Tailwind CSS
 published: 2024-01-17
 ---
@@ -46,7 +46,7 @@ After that, you can use the animation in your HTML element.
 
 You can use arbitrary values in TailwindCSS. For example, if you want to set the width of an element to 100px, you can do it like this:
 
-```html'
+```html
 <div className="w-[100px]">My Element</div>
 ```
 

@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Beyond CRUD: Architecting Backends with Modern Languages'
 published: 2024-02-26
 ---

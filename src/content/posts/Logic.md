@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: Simplify Your Code with Guard Clauses and Logical Expressions.
 published: 2023-09-20
 ---

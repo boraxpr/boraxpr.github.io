@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'AI Replacing Humans: The Reality of Agentic AI'
 published: 2025-02-22
 ---

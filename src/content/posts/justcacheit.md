@@ -1,5 +1,5 @@
 ---
-type: post
+
 title: 'Someone Told Me ‘Just Add Cache’, Here’s What Actually Happened'
 published: 2025-11-29
 ---
