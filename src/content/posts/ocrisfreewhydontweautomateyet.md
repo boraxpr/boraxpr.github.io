@@ -1,7 +1,7 @@
 ---
 type: post
 title: "Excel Is Not Machine-Readable Data (And OCR Won’t Save You)"
-date: 2025-12-19
+published: 2025-12-19
 ---
 
 ## TL;DR
