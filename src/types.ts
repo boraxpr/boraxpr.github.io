@@ -48,7 +48,7 @@ export interface FrontmatterImage {
 export interface Collation<CollectionType extends keyof DataEntryMap> {
   title: string
   url: string
-  key: string
+  titleSlug: string
   entries: CollectionEntry<CollectionType>[]
 }
 
@@ -173,8 +173,10 @@ export interface SiteConfig {
   socialCardAvatarImage: string
   tags: string[]
   pageSize: number
+  trailingSlashes: boolean
   themes: ThemesConfig
   socialLinks: SocialLinks
   navLinks: NavLink[]
-  giscus: GiscusConfig | undefined
+  giscus: GiscusConfig | undefined,
+  characters: Record<string, string>
 }

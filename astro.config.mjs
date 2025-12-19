@@ -17,6 +17,8 @@ import rehypeExternalLinks from 'rehype-external-links'
 import remarkDirective from 'remark-directive' /* Handle ::: directives as nodes */
 import rehypeUnwrapImages from 'rehype-unwrap-images'
 import { remarkAdmonitions } from './src/plugins/remark-admonitions' /* Add admonitions */
+import remarkCharacterDialogue from './src/plugins/remark-character-dialogue' /* Custom plugin to handle character admonitions */
+import remarkUnknownDirectives from './src/plugins/remark-unknown-directives' /* Custom plugin to handle unknown admonitions */
 import remarkMath from 'remark-math' /* for latex math support */
 import rehypeKatex from 'rehype-katex' /* again, for latex math support */
 import remarkGemoji from './src/plugins/remark-gemoji' /* for shortcode emoji support */
@@ -25,7 +27,7 @@ import rehypePixelated from './src/plugins/rehype-pixelated' /* Custom plugin to
 // https://astro.build/config
 export default defineConfig({
   site: siteConfig.site,
-  trailingSlash: 'never',
+  trailingSlash: siteConfig.trailingSlashes ? 'always' : 'never',
   prefetch: true,
   markdown: {
     remarkPlugins: [
@@ -34,24 +36,14 @@ export default defineConfig({
       remarkDirective,
       remarkGithubCard,
       remarkAdmonitions,
+      [remarkCharacterDialogue, { characters: siteConfig.characters }],
+      remarkUnknownDirectives,
       remarkMath,
       remarkGemoji,
     ],
     rehypePlugins: [
-      rehypeHeadingIds,
-      [
-        rehypeAutolinkHeadings,
-        {
-          behavior: 'append',
-          properties: {
-            className: ['heading-anchor'],
-          },
-          content: fromHtmlIsomorphic(
-            '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg><span class="sr-only">Link to heading</span>',
-            { fragment: true },
-          ).children,
-        },
-      ],
+      [rehypeHeadingIds, { headingIdCompat: true }],
+      [rehypeAutolinkHeadings, { behavior: 'wrap' }],
       rehypeTitleFigure,
       [
         rehypeExternalLinks,
