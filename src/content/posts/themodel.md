@@ -1,6 +1,6 @@
 ---
 title: Some Models Are Flashy. Some Models Are Forever.
-date: 2025-12-21
+published: 2025-12-21
 ---
 ![alt text](image-5.png)
 Every few months, the industry discovers **the next model**.
