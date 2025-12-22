@@ -117,28 +117,6 @@ Costs grow faster than traffic.
 
 ---
 
-## BATCHING
-
-**Definition:**  
-Grouping work to reduce overhead.
-
-**Reality:**  
-Good for throughput.  
-Irrelevant for first-byte latency.
-
----
-
-## PAGINATION
-
-**Definition:**  
-Splitting output into chunks.
-
-**Reality:**  
-Input stayed the same.  
-Network cost unchanged.
-
----
-
 ## CLOUD-NATIVE
 
 **Definition:**  
@@ -158,16 +136,6 @@ Smaller and simpler.
 **Reality:**  
 Features were removed.  
 You’ll add them back later.
-
----
-
-## MODULAR
-
-**Definition:**  
-Composed of many components.
-
-**Reality:**  
-Debugging now requires context switching.
 
 ---
 
