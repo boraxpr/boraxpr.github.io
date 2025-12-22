@@ -11,7 +11,14 @@ const config: SiteConfig = {
   // The author of the site, used in the footer, SEO, and RSS feed.
   author: 'Naipawat Poolsawat',
   // Keywords for SEO, used in the meta tags.
-  tags: ['blog', 'personal', 'programming', 'technology', 'Naipawat Poolsawat', 'Boraxpr'],
+  tags: [
+    'blog',
+    'personal',
+    'programming',
+    'technology',
+    'Naipawat Poolsawat',
+    'Boraxpr',
+  ],
   // Path to the image used for generating social media previews.
   // Needs to be a square JPEG file due to limitations of the social card generator.
   // Try https://squoosh.app/ to easily convert images to JPEG.
@@ -41,6 +48,10 @@ const config: SiteConfig = {
       url: '/posts',
     },
     {
+      name: 'Dictionary',
+      url: '/dictionary',
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/boraxpr',
       external: true,
@@ -61,10 +72,7 @@ const config: SiteConfig = {
     //   'github-light',
     //   'github-dark',
     // ]
-    include: [
-      'catppuccin-latte',
-      'monokai',
-    ],
+    include: ['catppuccin-latte', 'monokai'],
     // Optional overrides for specific themes to customize colors.
     // Their values can be either a literal color (hex, rgb, hsl) or another theme key.
     // See themeKeys list in src/types.ts for available keys to override and reference.
