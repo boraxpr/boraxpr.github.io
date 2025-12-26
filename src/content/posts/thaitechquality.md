@@ -1,41 +1,48 @@
 ---
-
 title: 'Technical Avoidance and Its Impact on Thai Tech'
 published: 2025-12-22
-draft: true
 ---
 
-People like to say Thai tech talent is on par with the US.
+People like to preach as if Thai tech is on par with Silicon Valley.
 
-Say that confidently, with evidence.
+You hear it all the time.
 
-This is not self-hate. This is not anti-Thai. This is basic honesty.
+Silicon Valley says software engineering is cooling down,  
+so people here assume the same thing will happen to Thailand.
 
-Thai people are capable. Often more capable than outsiders assume.  
-But **technical depth at scale** is a different question, and that gap is real.
+No. It will not.
 
-Pretending otherwise only guarantees we never close it.
+Our tech industry is built on completely different assumptions, incentives, and realities.  
+At the most basic level, it is a different ecosystem.
 
 ## Capability vs density
 
 The US does not win because every engineer there is a genius.  
-They win because they have **massive density of technically serious people**.
+They win because they have **a higher density of people who take technical depth seriously**.
 
-In many US universities, students:
-- Compile their own OS in early years
-- Build compilers, runtimes, or kernels later
+In stronger programs, students are pushed into real engineering work early. Many of them:
+
+- Build or modify operating systems
+- Write parts of compilers or runtimes
 - Treat systems programming as normal, not exotic
 
+Not everyone does this, and plenty still coast.  
+But there is a critical mass that pulls everything forward.
+
 In Thailand:
+
 - Year 1: Hello World
 - Year 2: Hello World, now object-oriented
 - Year 3: Hello World, now with a database
 
-That is not an insult. That is a curriculum reality.
+That is not an insult. That is curriculum design.
+
+This is not because the US is magical.  
+They built environments, incentives, and expectations that force more people to go deeper.
 
 You do not close a gap by denying it exists.
 
-## The root problem is not talent, it’s avoidance
+## The root problem is not talent, it is avoidance
 
 When I was in college, the majority of people I knew **hated coding.**
 
@@ -45,22 +52,23 @@ They outright hated it.
 
 They would do anything except code.
 
-Why were they there?
+Why were they there?  
 Almost always, “my parents told me to study this.”
 
-That is not weird in a high-collectivism culture.  
+That is not unusual here.  
 But the downstream effects are brutal.
 
 ### Do anything except the hard part
 
 This mindset repeats everywhere:
+
 - Do anything except coding
 - Do anything except math
 - Do anything except systems
 - Do anything except responsibility
 
 Not because the subject is impossible.  
-Because changing direction requires courage, and avoidance is easier.
+Because changing direction is costly, and avoiding the discomfort feels safer.
 
 So people stay in careers they dislike and optimize for escape routes.
 
@@ -78,85 +86,104 @@ That sentence explains a lot.
 
 ## Fast forward: our tech job landscape
 
-Years later, many of those avoidance patterns persist, now institutionalized through new titles.
+Years later, the same avoidance patterns show up again, this time institutionalized as career tracks.
 
-Tester.  
-Business analyst.  
-Project manager.  
-System analyst.  
-AI engineer.  
-Even architect.
+- Tester  
+- Business analyst  
+- Project manager  
+- System analyst  
+- AI engineer  
+- Architect  
+- And more
 
-Not all.  
-But often.
+These roles are legitimate when they stay connected to engineering reality.
 
-The result is familiar: people directing implementation without having to carry the cost of executing it.
+The problem starts when they become **escape hatches from responsibility**, while still controlling direction.
 
-And the cycle feeds itself.
+People end up directing implementation without having to carry the cost of executing it.  
+And once that structure exists, it reinforces itself.
 
-These are also the people pushing cargo-cult narratives:
+Within those structures, cargo-cult narratives thrive:
+
 - “Developers will be replaced by AI”
 - “Just use AI”
 - “Coding won’t matter anymore”
 
-We are not San Francisco.  
-We are not even close.
+We are not San Francisco, and pretending otherwise only keeps us stuck.
 
 ## Compare this with the US reality
 
-In the US, many managerial roles are held by people who:
-- Can execute the project themselves if needed
-- Have shipped real systems
-- Know exactly where things break
-- Give concrete, implementation-level guidance to avoid known failure modes
+In healthier tech ecosystems, many managerial roles are held by people who:
+
+- Have shipped real systems  
+- Understand where things usually break  
+- Can drop into the weeds when necessary  
+- Give implementation-level guidance instead of slogans  
+
+Not all of them. There is plenty of fluff there too,  
+but there is a larger share of people who have actually done the work.
+
+It is not perfect. They have cargo cult behavior too.  
+The difference is that more people recognize it when it shows up.
+
+The idea exists in Thailand, but it is rarely discussed openly, and almost never named.
 
 In Thailand, not always, but often, direction stops at “go do [buzzword].”
 
-Testers often code.  
-Architects are battle-tested engineers.  
-AI engineers are top-tier developers who moved into a specialized domain.
+Meanwhile:
 
-I recently saw a US AI engineer post this:
+- Testers frequently write code.  
+- Architects are usually engineers who have survived multiple failures.  
+- AI engineers tend to be strong developers who later moved into a specialized domain.
+
+I came across a comment from an AI engineer that summed it up:
 
 > “I wish I weren’t an AI engineer.  
 > The pay isn’t much better than dev,  
-> but the job is still dev + ops + ambiguous requirements.”
+> but the job is still dev plus ops plus unclear requirements.”
 
-That tells you everything.
+That line says a lot.
 
 AI engineering there is not a shortcut.  
-It is a tax on already-strong engineers.
+It is extra responsibility stacked on people who already know how to build.
 
 ## Thailand’s AI illusion
 
-In Thailand, “AI engineer” often means:
-- Studied abroad
-- Good English
-- Excellent slides
-- Fluent in buzzwords
-- Weak fundamentals
+In Thailand, too many “AI engineer” roles are built around optics instead of engineering.
 
-They create milestones they do not understand, validated by LLM output they cannot evaluate.
+The selection criteria often look like:
 
-This is not innovation.  
-It is theater.
+- Polished English  
+- Beautiful slides  
+- Fluency in buzzwords  
+- Comfort presenting to executives  
 
-And management loves it, because it looks modern and requires no technical accountability.
+But when it comes to fundamentals, things fall apart.
+
+Roadmaps get written that the authors cannot execute.  
+Milestones are “validated” by LLM answers they do not know how to evaluate.
+
+That is not innovation.  
+That is theater.
+
+Leadership often ends up rewarding the theater, because it is easier to measure slide decks and demos than real technical resilience.
 
 ## Reality check
 
-Even if AI eliminated all coding jobs in San Francisco tomorrow,  
-it would not eliminate them in Thailand for years.
+Even if AI wiped out a lot of coding jobs in Silicon Valley tomorrow,  
+it would not wipe them out in Thailand anytime soon.
 
-Why?
+Because we still do not have enough people who can:
 
-Because we already lack enough people who can:
-- Debug deeply
-- Own systems end to end
-- Take responsibility for failure
+- Debug deeply  
+- Trace problems across systems  
+- Own outcomes end to end  
+- Take responsibility when things break  
 
 AI does not replace absence.  
-It amplifies capability that already exists.
+AI amplifies capability that already exists.
+
+If you cannot reason about systems, AI only helps you produce wrong answers faster.
 
 ## If we want to move forward
 
@@ -166,11 +193,12 @@ This is not about nationalism.
 It is not about pride.
 
 It is about admitting that:
-- Our education system discourages technical depth
-- Our culture rewards avoidance over mastery
-- Our leadership pipeline filters out people who can actually build
 
-Until that changes, no amount of “Thai talent is world-class” posts will make it true.
+- Our education system rarely rewards real technical depth  
+- Our workplaces often reward appearances over mastery  
+- Our leadership pipelines filter for presentation more than competence  
+
+Until those incentives change, no amount of “Thai talent is world-class” posts will make it true.
 
 You do not close a gap by denying it.  
-You close it by naming it, then doing the uncomfortable work.
+You close it by telling the truth first, then building differently.
