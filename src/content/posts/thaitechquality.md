@@ -2,6 +2,7 @@
 
 title: 'Technical Avoidance and Its Impact on Thai Tech'
 published: 2025-12-22
+draft: true
 ---
 
 People like to say Thai tech talent is on par with the US.
