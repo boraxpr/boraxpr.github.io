@@ -1,6 +1,6 @@
 ---
 title: 'Technical Avoidance and Its Impact on Thai Tech'
-published: 2025-12-22
+published: 2025-12-26
 ---
 
 People like to preach as if Thai tech is on par with Silicon Valley.
