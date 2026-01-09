@@ -1,6 +1,6 @@
 ---
 
-title: 'When Everything Looks Easy, You're Probably Missing Something'
+title: 'AI and the Illusion of Easy Work'
 published: 2026-01-09
 ---
 
