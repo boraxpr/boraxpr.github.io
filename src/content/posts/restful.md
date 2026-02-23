@@ -2,6 +2,7 @@
 
 title: 'RESTful and why it matters'
 published: 2024-06-20
+tags: ["Backend", "API", "Software Architecture"]
 ---
 
 In modern web development, creating clear and manageable paths for your APIs and frontend routes is crucial. Take a look at these examples:

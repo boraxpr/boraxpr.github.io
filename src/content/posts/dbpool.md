@@ -2,6 +2,7 @@
 
 title: 'What Is Database Pooling — and Why So Many People Get It Wrong'
 published: 2025-06-06
+tags: ["Databases", "Backend", "Performance Optimization", "Tech Debt"]
 ---
 
 This issue is rampant in **Node.js**, **Go**, and **Python** — basically anywhere you're *not* using a meta-framework like Java Spring Boot or Python Django.

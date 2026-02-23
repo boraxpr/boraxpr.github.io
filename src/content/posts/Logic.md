@@ -2,6 +2,7 @@
 
 title: Simplify Your Code with Guard Clauses and Logical Expressions.
 published: 2023-09-20
+tags: ["Coding", "Best Practices"]
 ---
 
 When you start learning to code, after your initial "Hello, World!" program, one of the first constructs you encounter is the if-else statement. It's a fundamental part of programming, but it can quickly lead to complex and convoluted code if not used wisely. In this article, we'll explore how to simplify your code by avoiding nested if statements and employing guard clauses and logical expressions.

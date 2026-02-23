@@ -2,6 +2,7 @@
 
 title: 'Code is Not Meant to Be Clever'
 published: 2025-06-08
+tags: ["Coding", "Best Practices"]
 ---
 
 Lately, I’ve been reflecting on a growing pattern across the frontend ecosystem:  

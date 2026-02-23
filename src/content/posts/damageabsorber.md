@@ -2,6 +2,7 @@
 
 title: 'Damage Absorber: One Year of Senior Engineering Under a Non-Tech Power Structure'
 published: 2025-11-23
+tags: ["Career", "Engineering Culture", "Opinion", "Cross-Team Alignment"]
 ---
 
 When you start your career, you think software engineering is about code.  

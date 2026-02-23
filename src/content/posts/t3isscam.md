@@ -2,6 +2,7 @@
 
 title: 'E2E Typesafety, tRPC, and T3 Stack: Overhyped Hype or Developer Trap?'
 published: 2024-11-24
+tags: ["TypeScript", "Frontend", "Opinion"]
 ---
 
 The buzz around "**Type-safe end-to-end**" is impossible to ignore. With frameworks like the T3 Stack and tRPC, developers are promised seamless integration and foolproof data consistency. But here’s the harsh truth: the reality is far less glamorous. These tools may have their place, but they often fail to deliver on their promises—and sometimes, they make things worse.

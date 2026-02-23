@@ -2,6 +2,7 @@
 
 title: Art of Tailwind CSS
 published: 2024-01-17
+tags: ["CSS", "Tailwind", "Frontend"]
 ---
 
 TailwindCSS is a utility-first CSS framework. It is a set of CSS classes that you can use to style your HTML elements. It is not a UI library like Bootstrap or Material UI. It is a CSS framework that you can use to build your own UI library. Assuming you have a basic understanding of HTML and CSS, you can use TailwindCSS to build your own UI library.

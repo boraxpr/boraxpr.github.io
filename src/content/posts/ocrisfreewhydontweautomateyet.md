@@ -1,6 +1,7 @@
 ---
 title: "Excel Is Not Machine-Readable Data (And OCR Won’t Save You)"
 published: 2025-12-19
+tags: ["Data", "Automation", "Opinion", "Legacy Migration"]
 ---
 
 ## TL;DR

@@ -2,6 +2,7 @@
 
 title: Open-source AI is not free, even on cloud GPUs
 published: 2025-12-19
+tags: ["AI", "Open Source", "Cloud"]
 ---
 
 Lately I keep hearing the same pitch.

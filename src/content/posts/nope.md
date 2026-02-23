@@ -2,6 +2,7 @@
 
 title: 'Coding is not Going Anywhere: Disagreeing with Jensen Huang'
 published: 2024-03-04
+tags: ["AI", "Opinion", "Career"]
 ---
 
 There has been a significant push from online courses, influencers, and governments promoting the idea that everyone should learn to code. The push is fueled by the booming popularity of online courses promising to help anyone change their careers. Anyone can be a software engineer, software developer, software tester, et cetera.

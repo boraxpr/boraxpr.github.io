@@ -2,6 +2,7 @@
 
 title: "[Linux] Fedora 2025: GNOME's Decline, KDE’s Burden, and the Wayland Gamble"
 published: 2025-06-14
+tags: ["Linux", "Opinion"]
 ---
 
 Fedora was one of the go-to distro for people who wanted a clean, minimal setup. It shipped with [GNOME](https://www.gnome.org/) as a default desktop environment. Modern, Simple and low-maintenance.  

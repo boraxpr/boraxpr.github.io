@@ -1,6 +1,7 @@
 ---
 title: 'Technical Avoidance and Its Impact on Thai Tech'
 published: 2025-12-26
+tags: ["Thailand", "Tech Industry", "Opinion", "Cross-Team Alignment"]
 ---
 
 People like to preach as if Thai tech is on par with Silicon Valley.

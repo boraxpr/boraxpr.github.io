@@ -2,6 +2,7 @@
 
 title: 'Someone Told Me ‘Just Add Cache’, Here’s What Actually Happened'
 published: 2025-11-29
+tags: ["Backend", "Performance", "Caching", "Distributed Systems", "Performance Optimization", "Kubernetes"]
 ---
 
 ![REDIS](./image-4.png)

@@ -2,6 +2,7 @@
 
 title: 'HOT TAKE: I do not use ORMs - Why it should not be used on production, ever'
 published: 2024-04-04
+tags: ["Databases", "Backend", "Opinion"]
 ---
 
 Object-Relational Mapping (ORM) is an anti-pattern that should be avoided at all costs.

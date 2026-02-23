@@ -2,6 +2,7 @@
 
 title: 'AI Replacing Humans: The Reality of Agentic AI'
 published: 2025-02-22
+tags: ["Artificial Intelligence", "Agentic AI", "Opinion", "Agentic Architecture"]
 ---
 
 Today, I'm going to talk about the recent topic that has been talked about a lot in the job world. Agentic AI. What is it? And why I don't think it's going to replace human anytime soon. Many have discussed this topic, but I’ll offer a real-world, practical take.

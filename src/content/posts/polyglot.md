@@ -1,7 +1,7 @@
 ---
 title: "Once You See the Patterns, Every Framework Speaks the Same Language"
 published: 2025-05-10
-
+tags: ["Frontend", "Architecture", "Opinion"]
 ---
 
 **TL;DR**: I don’t chase frameworks — I trace patterns. I work best when I understand the full system. Once you see the design beneath the syntax, every framework starts to feel familiar. It’s not about how many years you’ve used X — it’s about how quickly you can see how X thinks.

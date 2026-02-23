@@ -2,6 +2,7 @@
 
 title: '[Off-topic] Why I Think Hot Countries Are Generally Less Developed Than Colder Countries'
 published: 2025-06-08
+tags: ["Off-topic", "Opinion"]
 ---
 
 People often talk about colonialism, politics, or geography when explaining why hotter countries tend to be less developed. But there's a deeper, physics-based reason that often gets overlooked:

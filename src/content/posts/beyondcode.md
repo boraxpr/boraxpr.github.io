@@ -2,6 +2,7 @@
 
 title: 'Balancing Complexity and Simplicity in Frontend Development'
 published: 2024-03-10
+tags: ["Frontend", "Opinion"]
 ---
 
 In the world of frontend development, simplicity is often overlooked in favor of the latest and trendiest technologies. As developers, we're bombarded with new libraries, frameworks, and tools that promise to revolutionize our workflow and deliver unparalleled results. However, this pursuit of innovation can sometimes lead us down a path of over-engineering, where we create solutions that are far more complex than the problems they're meant to solve.

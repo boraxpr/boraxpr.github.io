@@ -2,6 +2,7 @@
 
 title: Low code, The code is low until it is not.
 published: 2023-09-22
+tags: ["Opinion", "Development", "Legacy Migration", "Tech Debt"]
 ---
 
 Low code is not as straightforward as it might appear. While it may initially seem like an easy, error-free solution for developers, the reality is quite different. Low code can indeed simplify your life, but only until your project's requirements dictate otherwise.

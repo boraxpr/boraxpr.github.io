@@ -2,6 +2,7 @@
 
 title: 'Atomicity is not magic'
 published: 2025-11-29
+tags: ["Databases", "Backend", "Reliability", "Distributed Systems"]
 ---
 ![aciddb](./image-2.png)
 
