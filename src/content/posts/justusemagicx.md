@@ -2,7 +2,7 @@
 
 title: 'The “Just Use X” Fallacy'
 published: 2025-12-18
-tags: ["Opinion", "Engineering Culture", "Tech Debt"]
+tags: ["Engineering Culture", "Tech Debt"]
 ---
 
 In modern engineering discussions, complex problems are often reduced to simple prescriptions.

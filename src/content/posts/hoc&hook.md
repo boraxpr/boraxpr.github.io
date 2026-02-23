@@ -2,7 +2,7 @@
 
 title: "React's Evolution: From Higher-Order Components to the Flexibility of Hooks"
 published: 2024-11-17
-tags: ["React", "Frontend"]
+tags: ["Software Architecture"]
 ---
 
 In the early days of React, Higher-Order Components (HoCs) were the go-to pattern for reusing logic across components. They offered a way to "wrap" additional behavior into a component, striving to follow the DRY (Don't Repeat Yourself) principle. But as React evolved, so did its patterns—and now, with Hooks, HoCs have become largely outdated.

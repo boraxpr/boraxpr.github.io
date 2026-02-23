@@ -2,7 +2,7 @@
 
 title: 'Dev contents in 2024 make no sense'
 published: 2024-11-07
-tags: ["Opinion", "Dev Culture"]
+tags: ["Engineering Culture"]
 ---
 
 While I appreciate the content that has helped me grow in the past, I’ve noticed a worrying trend in 2024 that seems to undermine its value. I've always been a big fan of getting new knowledge by watching YouTube, TikTok, and Facebook posts about software development. However, there’s an ongoing trend that I'm not so happy to see: more and more software development content is using fear-mongering tactics to trick us into clicking, preying on our FOMO (Fear of Missing Out).

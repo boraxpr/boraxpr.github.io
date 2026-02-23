@@ -2,7 +2,7 @@
 
 title: 'Scientific Coding'
 published: 2024-03-26
-tags: ["Coding", "Opinion"]
+tags: ["Engineering Culture"]
 ---
 
 ### Introduction

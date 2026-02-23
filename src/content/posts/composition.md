@@ -2,7 +2,7 @@
 
 title: 'Object Oriented Programming as intended by the original creator, Alan Kay'
 published: 2024-04-20
-tags: ["OOP", "Programming"]
+tags: ["Software Architecture"]
 ---
 
 In object oriented programming, It's widely taught, misunderstood, misused that inheritance is "the basic building block" of OOP by the books.

@@ -2,7 +2,7 @@
 
 title: 'Cookie-Token based Authentication (Client-To-Server)'
 published: 2024-03-02
-tags: ["Authentication", "Security", "Backend"]
+tags: ["Backend"]
 ---
 
 Authentication is one of the hardest thing to do. Even when almost every application that you need to implement nowadays (Client-To-Server), needs an authentication system.

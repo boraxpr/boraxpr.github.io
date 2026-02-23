@@ -2,7 +2,7 @@
 
 title: 'Speed VS Velocity - What is Productivity'
 published: 2026-02-15
-tags: ["Productivity", "Opinion", "Engineering Culture", "Tech Debt"]
+tags: ["Engineering Culture", "Tech Debt"]
 ---
 
 Most organizations obsess over two metrics: Productivity and Capability. But we’ve stripped these words of their meaning.

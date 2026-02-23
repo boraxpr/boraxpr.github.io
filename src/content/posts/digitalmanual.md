@@ -2,7 +2,7 @@
 
 title: 'Digital Manual: Thailand’s workflow landscape and why we will not see AI adoption at the level of the US'
 published: 2025-11-23
-tags: ["Thailand", "AI", "Workflow", "Legacy Migration"]
+tags: ["AI", "Legacy Migration"]
 ---
 
 Let’s be honest. Thailand’s workflow landscape is nowhere near ready for the kind of AI-driven transformation we see in the United States. The problem is not complicated. Our systems are still stuck in a “digital manual” era, where paper has simply been converted into files, but the processes behind those files were never redesigned for real automation.

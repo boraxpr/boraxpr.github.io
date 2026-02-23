@@ -2,7 +2,7 @@
 
 title: 'AI and the Illusion of Easy Work'
 published: 2026-01-09
-tags: ["AI", "Opinion"]
+tags: ["AI"]
 ---
 
 ![dunningkruger](2026-01-09-21-49-37.png)

@@ -2,7 +2,7 @@
 
 title: "Can't Unsee It: The KPI Work Factory"
 published: 2026-02-23
-tags: ["Productivity", "Opinion", "Engineering Culture", "Cross-Team Alignment"]
+tags: ["Engineering Culture", "Cross-Team Alignment"]
 ---
 I used to wonder why engineering teams are constantly bombarded with work. Why the backlog never shrinks, and why every day feels like a sprint.
 

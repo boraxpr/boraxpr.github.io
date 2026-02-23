@@ -2,7 +2,7 @@
 
 title: 'Bodyshop: Thai Software Job Market Landscape'
 published: 2025-11-23
-tags: ["Thailand", "Tech Industry", "Career"]
+tags: ["Engineering Culture"]
 ---
 
 Most people talk about the tech industry in Thailand as if it works like the United States.  

@@ -2,7 +2,7 @@
 
 title: 'Beyond CRUD: Architecting Backends with Modern Languages'
 published: 2024-02-26
-tags: ["Backend", "Architecture", "Software Architecture"]
+tags: ["Backend", "Software Architecture"]
 ---
 
 Recently, I've stumbled across the newer languages and frameworks that are prevalent and expected by the dev community to be the future of backend.

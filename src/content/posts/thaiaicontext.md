@@ -2,7 +2,7 @@
 
 title: 'AI แทนคนไทยไม่ได้หรอกครับ'
 published: 2025-11-01
-tags: ["AI", "Thailand", "Opinion"]
+tags: ["AI"]
 ---
 
 ทุกคนพูดถึง AI กำลังจะทดแทนงานต่างๆ  

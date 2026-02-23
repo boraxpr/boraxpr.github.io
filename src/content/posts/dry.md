@@ -2,7 +2,7 @@
 
 title: 'When DRY Becomes Too Dry: Avoiding Over-Complexification'
 published: 2024-07-12
-tags: ["Coding", "Best Practices", "Tech Debt"]
+tags: ["Tech Debt"]
 ------
 
 The idea of DRY is to avoid repetition. If multiple places use the same code, why should we write it multiple times? Instead, we should write it once and reuse it. This is a good practice and helps in maintaining the codebase. But sometimes, developers take this too far and end up over-complicating the codebase. This is when DRY becomes too dry.

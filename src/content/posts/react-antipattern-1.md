@@ -2,7 +2,7 @@
 
 title: 'Stop Forcing React to Re-render: Here’s a Better Way'
 published: 2024-06-20
-tags: ["React", "Frontend"]
+tags: ["Tech Debt"]
 ---
 
 React, the most popular JavaScript framework for building user interfaces, leverages state management to efficiently update and re-render components. In the early days of web development, developers relied on vanilla JavaScript or libraries like jQuery to perform partial page updates using AJAX. React simplifies this by automatically re-rendering components when the state changes.

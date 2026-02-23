@@ -2,7 +2,7 @@
 
 title: 'Understanding Docker Multi-Stage Builds'
 published: 2024-02-25
-tags: ["Docker", "DevOps"]
+tags: ["DevOps"]
 ---
 
 Docker has revolutionized the way we develop, package, and deploy applications. It provides a way to run applications isolated in containers, which are lightweight and include everything needed to run the application. One of the key features of Docker is the ability to build images using a Dockerfile. A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.

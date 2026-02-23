@@ -1,7 +1,7 @@
 ---
 title: "TanStack is optional. Somehow it got sold as mandatory."
 published: 2026-01-10
-tags: ["React", "Frontend", "Opinion"]
+tags: ["Tech Debt"]
 ---
 
 TanStack is optional.

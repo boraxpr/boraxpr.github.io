@@ -1,7 +1,7 @@
 ---
 title: Some Models Are Flashy. Some Models Are Forever.
 published: 2025-12-21
-tags: ["AI", "Opinion", "Distributed Systems"]
+tags: ["AI", "Distributed Systems"]
 ---
 ![alt text](image-5.png)
 Every few months, the industry discovers **the next model**.

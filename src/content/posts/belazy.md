@@ -2,7 +2,7 @@
 
 title: 'Being Lazy is the First Step Toward Creating a Maintainable Solution'
 published: 2024-10-30
-tags: ["Coding", "Best Practices", "Maintainability"]
+tags: ["Tech Debt"]
 ---
 
 Many developers fall into the trap of over-engineering solutions early on, thinking that complexity or a comprehensive feature set equates to a robust system. But in reality, simplicity is king.
