@@ -4,19 +4,18 @@ const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
   site: 'https://boraxpr.github.io/',
   // The name of your site, used in the title and for SEO.
-  title: 'Naipawat Poolsawat',
+  title: 'Boraxpr',
   // The description of your site, used for SEO and RSS feed.
   description:
-    'Naipawat Poolsawat Personal Blog, where I share my thoughts on programming, technology, and more.',
+    'Boraxpr Personal Blog, where I share my thoughts on programming, technology, and more.',
   // The author of the site, used in the footer, SEO, and RSS feed.
-  author: 'Naipawat Poolsawat',
+  author: 'Boraxpr',
   // Keywords for SEO, used in the meta tags.
   tags: [
     'blog',
     'personal',
     'programming',
     'technology',
-    'Naipawat Poolsawat',
     'Boraxpr',
   ],
   // Path to the image used for generating social media previews.
@@ -104,7 +103,6 @@ const config: SiteConfig = {
     github: 'https://github.com/boraxpr',
     // mastodon: 'https://github.com/stelcodes/multiterm-astro',
     // email: 'https://github.com/stelcodes/multiterm-astro',
-    linkedin: 'https://www.linkedin.com/in/naipawat/',
     // bluesky: 'https://github.com/stelcodes/multiterm-astro',
     // twitter: 'https://github.com/stelcodes/multiterm-astro',
     rss: true, // Set to true to include an RSS feed link in the footer
