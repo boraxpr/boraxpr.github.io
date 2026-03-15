@@ -1,6 +1,6 @@
 ---
 
-title: 'I'm not going to be a part of the Dead Internet: I'm back to 100% hand-written posts.'
+title: "I'm not going to be a part of the Dead Internet: I'm back to 100% hand-written posts."
 published: 2026-03-15
 tags: ["AI"]
 ---
