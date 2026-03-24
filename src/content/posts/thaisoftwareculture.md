@@ -1,12 +1,12 @@
 ---
 
-title: 'Thai Software Culture: They want order-takers, not systems-thinkers'
+title: 'Low Maturity Software Culture: They want order-takers, not systems-thinkers'
 published: 2026-03-24
 tags: ["Engineering Culture"]
 ---
 In the Thai market, I find it truly challenging to find the right place for me. As a systems-thinker, I evaluate every order and reject the ones that don't make sense. I focus on doing what is right for long-term maintainability.  
 
-However, what I’ve found in Thai Software Culture is that most stakeholders don’t want systems-thinkers. Even though we actively prevent "the shit hitting the fan" so they never have to feel the pain, egos and corporate culture often get in the way. They ignore us, prioritizing optics and relationships over working systems.  
+However, what I’ve found in Low Maturity Software Culture is that most stakeholders don’t want systems-thinkers. Even though we actively prevent "the shit hitting the fan" so they never have to feel the pain, egos and corporate culture often get in the way. They ignore us, prioritizing optics and relationships over working systems.  
 
 Once the system is shipped and the KPI checkbox is green, the Business moves on. The app is in production. But when the cracks inevitably show, the failure is blamed on the implementers, not the flawed logic that forced it.  
 
