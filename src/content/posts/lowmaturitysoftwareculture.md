@@ -15,7 +15,7 @@ They want order takers. not me, never will be able to fit in to that role. And w
 Weird of all things, most if not all world top software such as Google, Facebook, Apple and I'd argue many products that are able to hit mass adoption are this scalable because they listen to the doers.
 recently, i've been into a HBO MAX Series named "Sillicon Valley", I feel like technological advancement, usable and working longterm products can not and will not magically appear because a group of dev listen and execute based on business stakeholder word by words, character by characters.  
 
-The main character in Silicon Valley had two offers to choose from. He built a world-class, efficient compression and search algorithm. He was offered $10M USD to instantly buy his algorithm, but he chose to accept $200,000 and support for the business to grow his own app instead. That's what I'm talking about.  
+The main character in Silicon Valley had two offers to choose from. He built a world-class, efficient compression and search algorithm. He was offered 10M USD to instantly buy his algorithm, but he chose to accept 200,000 and support for the business to grow his own app instead. That's what I'm talking about.  
 
 As far as thai tech market is heading, I only see disappointment, demo driven development. what these people do is replaced their own software once in a while with an external vendor (who doesn't even own the platform if they aren't buying MA support).  
 
