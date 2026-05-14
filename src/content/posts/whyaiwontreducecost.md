@@ -33,9 +33,9 @@ AI costs are not fixed. They are not linear. They are potentially exponential.
 
 > "If the API is too expensive, we'll just run it locally on our own GPUs." — Famous last words of a CTO.
 
-- The CapEx Trap: People compare a $0.01 token bill to a $0 electricity bill, but they ignore the massive Capital Expenditure. In 2026, high-end hardware (H100s or the newer B200s) is still supply-constrained and carries a massive premium. By the time you break even on the hardware vs. the tokens, the hardware is obsolete.
+- The CapEx Trap: People compare a 0.01USD token bill to a 0USD electricity bill, but they ignore the massive Capital Expenditure. In 2026, high-end hardware (H100s or the newer B200s) is still supply-constrained and carries a massive premium. By the time you break even on the hardware vs. the tokens, the hardware is obsolete.
 - The SRE Overhead: Hosting a "frontier-class" model isn't a "set it and forget it" task. It requires a dedicated team of SREs and ML Engineers to maintain the stack, optimize inference (vLLM, TensorRT-LLM), and manage the infrastructure.
-  - The Reality: You might save $10k a month on tokens only to spend $30k a month on the salary of the engineer required to keep the local cluster from crashing.
+  - The Reality: You might save 10k USD a month on tokens only to spend 30k USD a month on the salary of the engineer required to keep the local cluster from crashing.
 - The Intelligence Gap: Let’s be honest—Llama 4 (or whatever the current open-weight king is) is impressive, but for the "Verification" problem mentioned above, you need the highest level of reasoning possible to reduce human error. Local models often lack that final 5-10% of "common sense" that prevents hallucinations.
   - If a local model is 10% cheaper but creates 20% more "Artifact Slop" for humans to check, your total cost of business actually increased.
 
