@@ -45,7 +45,9 @@ Sitting in that room today absolutely strengthened my position on how we need to
 Here are my two golden rules going forward:
 
 1. Demote Redis from being a Single Point of Failure (SPOF)
-Design your systems with the understanding that Redis is just a "Cache", not the main pillar of truth. Do not design an application expecting Redis to have 100% uptime. There should always be an alternative path or fallback to the primary database so the app can survive degraded performance.
+- If you use Redis purely for caching: Do not design your application expecting it to have 100% uptime. It is a speed-enhancement tool, not the main pillar of truth. There should always be an alternative path to the primary database so the app can survive with degraded performance instead of crashing completely.
+
+- If you use Redis for shared state: It is completely fine to use Redis to share keys across multiple instances (e.g., distributed locks, shared configs, or rate limiting). However, you must still design defensively. Your system needs to be resilient enough to recover gracefully if a node restarts, memory eviction drops your data, or an admin is forced to manually flush the keys during an incident.
 
 2. Implement Circuit Breakers
 You absolutely must have a code-level switch to catch an app that keeps retrying a dead service. When retries or timeouts reach a certain threshold, the circuit must "break" to limit connections. This protects your downstream services (like Redis) from getting DDoS'd by your own app while they are trying to recover.
