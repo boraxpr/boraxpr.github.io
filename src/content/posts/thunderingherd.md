@@ -25,7 +25,7 @@ A quick search led me to a specific GitHub issue: Setting abortConnect to false 
 
 That issue pointed directly to the official Azure Cache for Redis documentation. When I read it, I had a massive "bruh" moment. The docs literally state:
 
-![image](.\azure.png)
+![image](azure.png)
 
 ### The "Aha!" Moment
 Because abortConnect defaults to true, the moment our network dropped during the IP cycle, the app lost its mind. Instead of letting the ConnectionMultiplexer handle the reconnection gracefully in the background with exponential backoff, every single thread and instance of our app instantly panicked and tried to violently force a new connection to Redis at the exact same time.  
