@@ -25,12 +25,14 @@ The core problem with naive integrations is tight coupling. If the frontend Reac
 I designed an Abstraction Data Flow (pictured above) that isolates the frontend from Superset entirely, using our backend as the secure broker.
 
 Here is how the Golden Path works in practice:
+
 1. The ID Resolution Layer
 
 Instead of hardcoding Superset Dashboard IDs in our apps, the user simply provides a URL/permalink.
 When the frontend saves this, our backend intercepts it and acts as a translation layer. It reaches out to Superset (GET /api/v1/dashboard/permalink/{permalinkId}) to figure out the necessary internal routing. It maps the permalink to the actual Dashboard UUID and, crucially, extracts the Embedded SDK UUID (the Integer ID required by the React library).
 
-The frontend remains completely ignorant of Superset's database structure. It just asks for a dashboard and gets it.
+The frontend remains completely ignorant of Superset's database structure. It just asks for a dashboard and gets it.  
+
 2. Minting the Guest Token (The Security Broker)
 
 Superset requires a secure handshake to embed iframes without forcing the user to log into the BI tool directly. Our backend handles this by minting a Superset Guest Token (a JWT).
