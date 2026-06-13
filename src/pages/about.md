@@ -22,7 +22,8 @@ Beyond Boilerplate: Every tool listed below reflects hands-on setup, configurati
 - Databases: Relational (PostgreSQL, MSSQL) & NoSQL (MongoDB) optimization. Redis for multi-instance shared state. Time-Series (o11y).
 - Containers & K8s: Build/Image optimization. Docker-compose, K8s (Manual/Helm-charts), Managed Services.
 - Infra & CI/CD: Traffic routing, reverse proxies. Pipelines via GitHub Actions, Jenkins, Azure DevOps.
-- Monitoring & O11y: OpenTelemetry, Grafana stack (alloy-collector, prometheus, loki, tempo, kube-state-metrics), ELK + Fleet, APM, Azure Log Analytics & App Insights.Platform (Self-Service): Apache Airflow (ETL pipelines), Apache Superset (autonomous BI dashboards).
+- Monitoring & O11y: OpenTelemetry, Grafana stack (alloy-collector, prometheus, loki, tempo, kube-state-metrics), ELK + Fleet, APM, Azure Log Analytics & App Insights.
+- Platform (Self-Service): Apache Airflow (ETL pipelines), Apache Superset (autonomous BI dashboards).
 - Cloud PaaS: Vercel, Netlify, DigitalOcean, Firebase, Supabase.
 - Scripting: Python, Node, Bash.
 
