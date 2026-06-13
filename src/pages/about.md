@@ -24,7 +24,7 @@ Beyond Boilerplate: Every tool listed below reflects hands-on setup, configurati
 - Infra & CI/CD: Traffic routing, reverse proxies. Pipelines via GitHub Actions, Jenkins, Azure DevOps.
 - Monitoring & O11y: OpenTelemetry, Grafana stack (alloy-collector, prometheus, loki, tempo, kube-state-metrics), ELK + Fleet, APM, Azure Log Analytics & App Insights.
 - Platform (Self-Service): Apache Airflow (ETL pipelines), Apache Superset (autonomous BI dashboards).
-- Cloud PaaS: Vercel, Netlify, DigitalOcean, Firebase, Supabase.
+- Cloud PaaS: Vercel, Netlify, DigitalOcean, Firebase, Supabase, Railway.
 - Scripting: Python, Node, Bash.
 
 Next Frontiers: Network Engineering, IaC (Terraform, Ansible), and building reliable large-scale infra with strict automated guardrails.
