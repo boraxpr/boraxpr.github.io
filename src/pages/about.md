@@ -3,11 +3,42 @@ layout: '~/layouts/MarkdownLayout.astro'
 title: About
 ---
 
-- Software engineer (MUICT 2021), TOEIC 940/990  
-- Backend-focused, system-aware, anti-bloat  
-- Fluent in Java, Node.js, Go, Rust, Python, SQL — I use what works when it’s needed  
-- Frameworks are tools — when you understand how the system fits, you don’t depend on magic. From frontend to backend, infra to data, I know how and when to apply modular architecture that lasts  
-- **Platform Engineering** — Engineered and automated internal systems for CI/CD, workflow orchestration, container platforms, and observability — on-prem and in the cloud  
-- **Frontend-capable** — Not your typical fullstack JavaScript-er. I go beyond backend and infra. It’s rare to find a backend engineer who can not only wire up a component UI library to match customer Figma designs, but also dive into raw CSS and solve complex custom styling challenges. I have hands-on experience with React, Vue, and Svelte in real projects, and I’ve explored Angular in my own time to understand its architecture and capabilities.
-- Linux power user (Fedora / Ubuntu / Arch) 
-- I don’t ship junk and run — I own what I build  
+- MUICT 2021, TOEIC 940/990
+
+## What I do: Know the WHY.
+
+I am driven by a fundamental need to understand how things work under the hood. I don't like leaving unknowns on the table. If a technology exists in my orbit, I feel compelled to understand how it works. This curiosity is what allows me to connect the dots across the entire stack, from raw requirements to production reliability.
+
+Recent Highlight: Rescued and stabilized an initially unreliable internal LLM platform—scaling the infrastructure to comfortably support 1,000+ DAU and 5,000+ registered users—while successfully navigating complex stakeholder dynamics and resetting volatile project expectations.
+
+- Stakeholder & Feasibility: Handle critical architectural decisions and unblock teams when requirements escalate out of hand.
+
+- Technical Leadership : Direct and mentor agile teams (incl. international contractors) via Azure DevOps, ensuring strict architectural governance.
+
+- Front-End: HTML/TS, SPA Routing, complex State Management, Component Libraries. React, Astro, NextJS, Svelte, VueJS, NuxtJS, Angular.
+
+- Mobile Client: Flutter (Mobile Banking apps), Kotlin.
+
+- Back-End: APIs, Core Services, Database Connections. TypeScript (NestJS), Java (SpringBoot), Rust (Axum/Tokio), Go (Chi/Native), C# (.NET Core).
+
+- Web Servers & Proxies: Nginx, Tomcat, Uvicorn/Gunicorn, MS IIS, and Go/Rust embedded servers (net/http, Tokio).
+
+- Performance & Runtime Tuning: JVM Container Optimization (MaxRAMPercentage, Memory Scaling), Connection Pooling, and Resource Management.
+
+- Databases & Shared State: Relational (PostgreSQL, MSSQL) & Non-Relational (MongoDB) optimization. Redis for multi-instance shared state. Time-Series (Prometheus, Loki, Tempo).
+
+- Containers & Orchestration: Build/Image optimization. Docker-compose, Kubernetes (Manual/Helm-charts), and Managed Services.
+
+- Infrastructure & CI/CD: Traffic routing and reverse proxies. Pipelines via GitHub Actions, Jenkins, Azure Devops
+
+- Monitoring & O11y : Eliminating black-box systems with tracing and metrics (OpenTelemetry, Grafana stack: alloy-collector, prometheus, loki, tempo, kube-state-metrics, Elasticsearch ELK + Fleet, APM, Azure LogAnalytics&App Insight) to ensure production reliability.
+
+- Platform (Self-Service): Deployed Apache Airflow for robust ETL pipelines and Apache Superset to empower business users with autonomous BI dashboards.
+
+- Cloud PaaS: Vercel, Netlify, DigitalOcean, Firebase, Supabase.
+
+- Scripting : Python, Node, Bash.
+
+Not just a template user, all tools listed are hands-on setup&configure
+
+Next Frontiers: Network Engineering, Infrastructure as Code (Terraform, Ansible), and building reliable large-scale infra with strict automated guardrails, Scaling up high availability systems. 
