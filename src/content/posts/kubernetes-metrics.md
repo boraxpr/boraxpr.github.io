@@ -90,7 +90,7 @@ Now you would get most CPU, memory, disk, network, and other node-level physical
 ## Visualizing Kubernetes Metrics
 Now after you get cAdvisor and kube-state-metrics metrics, you can visualize them in grafana or other visualization tools. You can create your own dashboards or just use the ones provided by the community.
 For grafana: https://grafana.com/grafana/dashboards/15661-k8s-dashboard-en-20250125/  
-![image](./Screenshot%202026-06-15%20181832.png)
+![image](./cadvisor-ksm.png)
 
 ## Service Discovery: Application-level metrics
 
