@@ -5,6 +5,8 @@ published: 2026-06-15
 tags: ["SRE", "Infrastructure", "Observability"]
 ---
 
+![image](./service-discovery.png)
+---
 Let's say you have a kubernetes cluster and prometheus with multiple workloads running on it. You want to monitor the health of the cluster and the workloads. 
 
 One of the pitfalls is you keep manually adding metrics to prometheus. This is a bad practice because it is not scalable and not maintainable. 
