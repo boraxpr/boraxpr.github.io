@@ -87,6 +87,11 @@ Now you would get most CPU, memory, disk, network, and other node-level physical
 
 > And don't forget kube-state-metrics. these are higher level metrics that binds the low level physical metrics to the kubernetes objects. Which will answer your questions like: what pod crashed, how many times, what service is down, what node is under pressure, etc. https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-state-metrics
 
+## Visualizing Kubernetes Metrics
+Now after you get cAdvisor and kube-state-metrics metrics, you can visualize them in grafana or other visualization tools. You can create your own dashboards or just use the ones provided by the community.
+For grafana: https://grafana.com/grafana/dashboards/15661-k8s-dashboard-en-20250125/  
+![image](./Screenshot%202026-06-15%20181832.png)
+
 ## Service Discovery: Application-level metrics
 
 ### 1. Add this job to automate service discovery and scrape metrics from Applications
