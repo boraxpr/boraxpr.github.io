@@ -1,6 +1,7 @@
 ---
 title: "Anatomy of a 3-Hour Outage: How a Single Redis Config DDoS’d Our Own Production"
 published: 2026-06-05
+tags: ["SRE", "Infrastructure"]
 ---
 
 Picture this: I’m sitting in a room packed with the infrastructure team, the vendor, and our developers. Tension is high. We had just gone through a platform bridge change that caused IPs to cycle. Usually, this is a non-event. All the core services came back online perfectly normal.
