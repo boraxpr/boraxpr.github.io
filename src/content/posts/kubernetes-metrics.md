@@ -118,6 +118,3 @@ prometheus.io/scrape: "true"
 ```
 #### Modern Apps: OTLP/OpenTelemetry
 But for apps that already use OTLP/OpenTelemetry, you don't need to do this. If you use collector like otel-collector, grafana/alloy-collector and write the metrics to prometheus. Then you would already be able to explore metrics in grafana or other visualization tools.
-
-
-###
