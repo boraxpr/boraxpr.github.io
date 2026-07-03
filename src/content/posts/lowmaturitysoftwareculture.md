@@ -3,6 +3,7 @@
 title: 'Low Maturity Software Culture: They want order-takers, not systems-thinkers'
 published: 2026-03-24
 tags: ["Engineering Culture"]
+hidden: true
 ---
 In the Thai market, I find it truly challenging to find the right place for me. As a systems-thinker, I evaluate every order and reject the ones that don't make sense. I focus on doing what is right for long-term maintainability.  
 
