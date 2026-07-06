@@ -7,11 +7,14 @@ tags: ["SRE"]
 
 We host a beta version of an open-source tool called Open WebUI at an enterprise scale. We have over 1,000 daily users, hitting 500+ concurrent users at peak times.
 
-Recently, I was pressured by the business side to upgrade to a newer version. As I always say, there are some production issues that are simply too costly or impossible to catch in DEV/UAT environments. This was one of them.
+Recently, I was pressured by the business side to upgrade to a newer version.  
+ As I always say, there are some production issues that are simply too costly or impossible to catch in DEV/UAT environments. This was one of them.
 
-A day or two after the upgrade, our production PostgreSQL database was suddenly pinned at 100% CPU. All actions on the web UI became randomly sluggish with wildly inconsistent loading times.
+A day or two after the upgrade, our production PostgreSQL database was suddenly pinned at 100% CPU.  
+All actions on the web UI became randomly sluggish with wildly inconsistent loading times.
 
-Because we have a managed Postgres instance, I checked the query insights on our portal. I found this query taking an estimated 1-2 hours to execute:
+Because we have a managed Postgres instance, I checked the query insights on our portal.  
+I found this query taking an estimated 1-2 hours to execute:
 ```
 SELECT public.file.id, public.file.user_id, ... FROM public.file WHERE 
 CAST(((meta -> $1) ->> $2) AS VARCHAR) = $3 AND CAST((data 
@@ -59,8 +62,8 @@ From
 To
 ![alt text](Screenshot_20260706_160646.png)
 ## 2. Create a pg_cron to actively eliminate this query
-```
 To keep the database alive while I worked on a permanent fix, I scheduled a cron job to actively eliminate this query if it hung for more than 1 minute:
+```
 SELECT cron.schedule(
     'kill-stuck-openwebui-queries',
     '*/2 * * * *',
